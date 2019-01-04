@@ -108,17 +108,17 @@
 	- Tipos complejos, tracking, transacciones, estados, entidades relacionadas, trabajo con otros motores de bases de datos, templates, entity/table splitting
 - Microsoft Azure
 	- Services:  
-	--	compute (IaaS, PaaS, Websites, WebJobs)  
-	-- Mobile  
-	-- Storage  
-	-- Data Management  
-	-- Messaging  
-	-- Media services  
-	-- CDN  
-	-- DevOps  
-	-- Management  
-	-- Machine learning  
-	-- IoT
+		- compute (IaaS, PaaS, Websites, WebJobs)  
+		- Mobile  
+		- Storage  
+		- Data Management  
+		- Messaging  
+		- Media services  
+		- CDN  
+		- DevOps  
+		- Management  
+		- Machine learning  
+		- IoT
 - Servicios de Mensajería
 	- MSMQ, RabbitMQ, ActiveMQ, SonicMQ, (Publicador/Subscriptor)
 - Integración Continua
@@ -126,9 +126,9 @@
 
 # Reference guides
 
-[https://books.goalkicker.com/CSharpBook/](https://books.goalkicker.com/CSharpBook/)
-[https://books.goalkicker.com/VisualBasic_NETBook/](https://books.goalkicker.com/VisualBasic_NETBook/)
-[https://books.goalkicker.com/DotNETFrameworkBook/](https://books.goalkicker.com/DotNETFrameworkBook/)
-[https://docs.microsoft.com/es-es/dotnet/framework/data/adonet/](https://docs.microsoft.com/es-es/dotnet/framework/data/adonet/)
-[https://books.goalkicker.com/EntityFrameworkBook/](https://books.goalkicker.com/EntityFrameworkBook/)
-[https://books.goalkicker.com/MicrosoftSQLServerBook/](https://books.goalkicker.com/MicrosoftSQLServerBook/)
+https://books.goalkicker.com/CSharpBook/
+https://books.goalkicker.com/VisualBasic_NETBook/
+https://books.goalkicker.com/DotNETFrameworkBook/
+https://docs.microsoft.com/es-es/dotnet/framework/data/adonet/
+https://books.goalkicker.com/EntityFrameworkBook/
+https://books.goalkicker.com/MicrosoftSQLServerBook/
