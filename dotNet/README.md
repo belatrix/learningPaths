@@ -1,111 +1,111 @@
 # Engineer 1
 
 - C# / VB.NET
-	- Sintaxis, tipos de datos, estructuras de control, Strings, arreglos, manejo de excepciones.  
-	- Clases, Herencia, Encapsulamiento, Polimorfismo. Interfaces  
-	- C#5 y superior  
-	- Crear y correr aplicaciones en Visual Studio
+	- Syntax, data types, control sentences, Strings, arrays, exceptions.
+	- Classes, Inheritance, Encapsulation, Polymorphism. Interfaces.
+	- C#5 and beyond.
+	- Create and run applications in Visual Studio.
 - .NET Framework
-	- Sintaxis, tipos de datos, estructuras de control, Strings, arreglos, manejo de excepciones.  
-	- Versions 2/3/4+  
-	- I/O, manejo de archivos
+	- Syntax, data types, control sentences, Strings, arrays, exceptions.
+	- Versions 2/3/4+
+	- I/O, files.
 - WinForms
-	- Aplicaciones de consola, Aplicaciones Windows x86/x64
+	- Console applications, Windows applications (Windows x86/x64)
 - LinQ
-	- Operadores básicos:  Select, Where, SelectMany, Sum/Min/Max/Average, Aggregate, OfType, OrderBy/ThenBy, Distinct, Count, Any
+	- Basic operators: Select, Where, SelectMany, Sum/Min/Max/Average, Aggregate, OfType, OrderBy/ThenBy, Distinct, Count, Any.
 - ADO.Net
-	- Conectarse, Ejecutar comandos, Datareaders, Databinding básico 
-	- Linq to ADO.Net
+	- Connections, commands executions, datareaders, basic databinding.
+	- Linq to ADO.Net.
 - MS SQL Server
-	- Instalar SQL Express. 
-	- Administración y configuracion Básica con SQL Server Management Studio  
-	- Tipos de datos, tablas y sentencias SQL
+	- Install SQL Express.
+	- SQL Server Management Studio administration and configuration.
+	- Data types, tables y SQL sentences.
 
 # Engineer 2
 
 - C# / VB.NET
-	- Estructuras de datos complejas  
-	- Manejo de memoria  
-	- Casting, generics, reflection  
-	- I/O, manejo de archivos  
-	- Networking, HTTP requests
+	- Complex data structures.
+	- Memory management.
+	- Casting, generics, reflection.
+	- I/O, files.
+	- Networking, HTTP requests.
 - .NET Framework
-	- Manejo de memoria  
-	- Threads/Tasks, sincronismo  
-	- Networking
+	- Memory management.
+	- Threads/Tasks, synchronism.
+	- Networking.
 - ASP.Net Web forms
-	- Conceptos básicos para manejo de aplicaciones legacy
+	- Legacy applications basic concepts.
 - ASP.Net MVC
-	- Conceptos básicos de MVC, View engines  
-	- Ciclo de vida, routing, controladores, acciones, filtros, selectores, vistas, Razor, gestión de paquetes (NuGet/NPM)
+	- MVC, View engines  
+	- Lifecycle, routing, controllers, actions, filters, selectors, views, Razor, package management (NuGet/NPM)
 - MS SQL Server
-	- Instalar SQL Express y Administración y configuración Básica con SQL Server Management Studio
+	- SQL Express installation and administration, SQL Server Management Studio basic configuration.
 - Visual Studio
-	- Manejo de debug y conocimiento más avanzado del IDE
+	- debug and advanced IDE knowledge.
 - WCF
-	- WS-Addressing, WS-ReliableMessaging, WS-Security, WS-Discovery
-	- Adress-Binding-Contract, endpoints, protocols, json serialization  
-	- Behaviors, interoperability
-- WPF / Silverlight (Obsoleto)
-	- Direct3D, data binding, media services, plantillas, animaciones, xaml
+	- WS-Addressing, WS-ReliableMessaging, WS-Security, WS-Discovery.
+	- Adress-Binding-Contract, endpoints, protocols, json serialization.  
+	- Behaviors, interoperability.
+- WPF / Silverlight (Obsolete)
+	- Direct3D, data binding, media services, templates, animations, xaml.
 - MVP
-	- Conceptos básicos de MVP
+	- Basic concepts.
 - LinQ
-	- Operadores avanzados:  Join, GroupJoin, Take/TakeWhile, Skip/SkipWhile, Concat, Reverse, GroupBy, Union  
-	- Linq to Objects  
+	- Advanced operators: Join, GroupJoin, Take/TakeWhile, Skip/SkipWhile, Concat, Reverse, GroupBy, Union  
+	- Linq to Objects
 	- Link to XML, Link to DataSet
 - Unit Testing
-	- Fundamentos y Uso Básico de Isolation Frameworks (Moq, Rhinomock) / Microsoft Test NUnit Xunit
+	- Isolation Frameworks basics (Moq, Rhinomock) / Microsoft Test NUnit Xunit
 
 # Engineer 3
 
 - C# / VB.NET
-	- Patrones (IoC, Singleton, etc.)  
-	- Threads, Stream, Sincronismo
-- Paralelismo
+	- Patterns (IoC, Singleton, etc.)  
+	- Threads, Stream, synchronism.
+- Parallelism
 	- .Net TPL
 - Entity Framework
 	- Code first: conventions, data annotations, migrations, inheritance, mappings, model generation
 - ASP.NET Web API
-	- Conocimientos básicos de microservicios, REST  
-	- Diferencias con WCF  
+	- Microservices basics, REST  
+	- Differences with WCF 
 	- Controllers, configurations, routing, parameter binding, return types  
 	- Request/Response data and media type format, filters  
 	- CRUD (get, post, put, delete)  
 	- Dependency injection
 - MVP
-	- Implementación de MVP en proyectos .NET
+	- MVP implementation in .NET projects.
 - LinQ
-	- PLINQ, ejecución de consultas en paralelo
+	- PLINQ, paralel queries execution.
 - MS SQL Server
-	- Sentencias SQL complejas
-	- XML y JSON en SQL Server
-	- Migraciones
-	- Tablas temporales
-	- Creación de esquemas y DDL
+	- Complex SQL sentences.
+	- XML and JSON in SQL Server.
+	- Migrations.
+	- Temporal tables.
+	- Scheme and DDL creation.
 
 # Senior
 
 - C# / VB.NET
-	- Patrones avanzados: structural design, decorator, flyweight, pointers
+	- Advanced patterns: structural design, decorator, flyweight, pointers.
 - ASP.NET Web API
-	- 1.0/2.0 Instrumentacion con IoC, Testeabilidad
+	- 1.0/2.0 Instrumentation with IoC, testing.
 - ORM
-	- EF, NHibernate, Nociones Básicas de Code First, Configuración e instrumentación
+	- EF, NHibernate, code first basic concepts, configuration and implementation.
 - XML / JSON
-	- Serialización, Manipulación, Conocimientos Básicos de Creación de Schemas
+	- Serialization, Manipulation, schemas creation basic concepts.
 - Unit Testing
-	- Fundamentos y Conocimientos de Stubs, Mocks (Moq, Nsubstitute), Doubles
+	- Stubs, Mocks (Moq, Nsubstitute), Doubles.
 - .Net Core
-	- Numerics, garbage collection, modularity, msbuild, metapackage
-	- Windows runtime, extension SDKs, .net standard library, portable class library  
-	- Libraries references and sharing  
-	- Xamarin.Forms  
-	- Testing projects and libraries
-- Inyección de dependencias
+	- Numerics, garbage collection, modularity, msbuild, metapackage.
+	- Windows runtime, extension SDKs, .net standard library, portable class library.
+	- Libraries references and sharing.
+	- Xamarin.Forms.
+	- Testing projects and libraries.
+- Dependency injection
 	- Autofac, Unity, Ninject, etc.
 - Entity Framework
-	- Tipos complejos, tracking, transacciones, estados, entidades relacionadas, trabajo con otros motores de bases de datos, templates, entity/table splitting
+	- Complex types, tracking, transactions, states, related entities, work with other db engines, templates, entity/table splitting.
 - Microsoft Azure
 	- Services:  
 		- compute (IaaS, PaaS, Websites, WebJobs)  
@@ -119,10 +119,10 @@
 		- Management  
 		- Machine learning  
 		- IoT
-- Servicios de Mensajería
-	- MSMQ, RabbitMQ, ActiveMQ, SonicMQ, (Publicador/Subscriptor)
-- Integración Continua
-	- Configuración y conocimientos básicos de MSBUILD
+- Messaging services
+	- MSMQ, RabbitMQ, ActiveMQ, SonicMQ, (Publisher/Subscriber)
+- Continuous integration
+	- MSBUILD configuration and basic concepts.
 
 # Reference guides
 
