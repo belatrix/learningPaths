@@ -5,7 +5,7 @@
 	- La plataforma Java
 	- Tipos de programas en Java
 	- Diferencia entre JDR y JDK
-- Conceptos generales	
+- General concepts	
 	- IDE
 	- Workspaces
 	- Proyectos
