@@ -1,95 +1,94 @@
 # Engineer 1
 
-- La tecnología Java	
-	- El lenguaje de programación Java
-	- La plataforma Java
-	- Tipos de programas en Java
-	- Diferencia entre JDR y JDK
-- General concepts	
+- Java technology
+	- Syntax and basic concepts
+	- Java platform
+	- Java applications
+	- Differences between JRE and JDK
+- General concepts
 	- IDE
 	- Workspaces
-	- Proyectos
-- Estructura del lenguaje	
-	- Comentarios
-	- Identificadores
-	- Palabras clave
-	- Literales
-	- Expresiones y operadores
-	- Variables y tipos de datos
-	- Bloques y sentencias
-- Conceptos de la Programación Orientada a Objetos	
-	- Clases y objetos
-	- Mensaje y métodos
-	- Encapsulamiento
-	- Herencia, Superclase y Subclases
-	- Polimorfismo
-	- Abstracción
-- Trabajando con clases y objetos en Java	
-	- Definición de clases
-	- Constructores y creación de objetos
-	- Acceso a variables y métodos
-	- Variables y métodos de clase
-	- Heredando clases en Java
-	- Sobrecarga de métodos
-	- Sobreescritura de métodos
-	- Clases abstractas
+	- Projects
+- Language syntac
+	- Comments
+	- Identifiers
+	- Keyworks and reserved words
+	- Literals
+	- Expresions and operators
+	- Variables and data types
+	- Blocks and sentences
+- Object-oriented programming concepts
+	- Classes and objects
+	- Messages and methods
+	- Encapsulation
+	- Heritage, Superclasses and Subclasses
+	- Polymorphism
+	- Abstraction
+- Classes and objects
+	- Classes definitions
+	- Constructors and objects creation
+	- Variables and method access
+	- Class variables and methods
+	- Heritage
+	- Method overloading
+	- Method overwriting
+	- Abstract Classes
 	- Interfaces
-- Paquetes y Modificadores de acceso	
-	- Paquetes
-	- Modificadores de acceso
+- Packages and access modifiers
+	- Packages
+	- Access modifiers
 	- Restricciones del modificador protected
 - Unit testing	
-	- Concepto de unit test
-	- Framework de unit testing (JUnit)
-	- Creación de unit test para método básico
+	- Basic concepts
+	- JUnit
+	- Create a unit test for a simple method
 	- Assertions
 
 # Engineer 2
 
-- Excepciones	
-	- Generalidades del manejo de excepciones.
-	- Utilización del manejo de excepciones.
-	- Lanzamiento de una excepción
-	- Jerarquía de excepciones.
-	- Tipos de excepciones.
-	- Ventajas
+- Exceptions	
+	- How and when handle exceptions
+	- Exceptions throwing
+	- Exceptions hierarchy
+	- Exceptions types
+	- Benefits
 	- Throw y Throws
 	- Try-catch-finally
-	- Limpieza de la pila.
-	- Constructores, destructores y manejo de excepciones.
-	- Excepciones y herencia.
-	- Logueo de excepciones
-- Sistema de E/S de Java: java.io	
-	- Conceptos básicos de manejo de E/S
-- Base de Datos	
-	- Modelado de datos
-	- Base de datos relacionales
+	- Stack cleaning
+	- Constructors, destructors and exceptions handling
+	- Exceptions and heritage
+	- Exceptions logging
+- I/O System: java.io	
+	- I/O basic concepts
+- Databases
+	- Data modeling
+	- Relational database
 	- JDBC
-- Programación multi hilo: Threads	
-	- ¿Qué es la programación multi hilo?
-	- Threads en java
-	- Diagrama de estados de los threads
-	- Herencia de la clase Thread y manipulación de hilos
-	- Métodos run() y start()
-	- El productor- consumidor:
-	- Sincronización de métodos
-	- Distintas formas de implementar un hilo
-	- Ventajas y desventajas
-- Implementación de patrones en Java	
+- Threads	
+	- Multi-thread programming
+	- Threads in java
+	- Threads state diagram
+	- Thread class heritage and Threads manipulation
+	- run() and start() methods
+	- Producer-consumer
+	- Method synchronization
+	- Different wayts to implement Threads
+	- Pros and cons
+- Patterns
 	- Singleton
 	- DAO
-	- Fachada
-- Colecciones de objetos: Java Framework Collection	
-	- Introducción a las colecciones y estructuras de datos
-	- Manejo de arreglos mediante la clase java.util.Arrays
-	- Interfaces base del JFC y sus métodos
-	- Interfaz List
-	- Interfaz Map
-	- Interfaz Set
-	- Clases de implementación de las interfaces base.
-	- Clases ArrayList,Vector y Stack
-	- Clase HashMap y Hashtable
-	- Clase HashSet
+	- Facade
+- Collections: Java Framework Collection	
+	- Collections intro and data structures
+	- Arrays handling using java.util.Arrays
+	- JFC interfaces and methods
+	- List Interface
+	- Map Interface
+	- Set Interface
+	- Base interfaces implementations
+	- ArrayList, Vector and Stack
+	- HashMap and Hashtable
+	- HashSet
 - Spring	
 	- Conocimiento básico
 
