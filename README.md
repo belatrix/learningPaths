@@ -1,3 +1,3 @@
-# Temarios
+# Technology guides
 
-En cada directorio se encontrará el detalle de cada tecnología, un índice completo ordenado por seniority.
+Inside each folder you'll find the guide of each technology, with all the items group by seniority.
