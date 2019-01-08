@@ -1,52 +1,52 @@
 # Engineer 1
 
 - ViewGroups
-	- RelativeLayout, LinearLayout, ScrollViews  
-	- Propiedades básicas de cada uno
+	- RelativeLayout, LinearLayout, ScrollView  
+	- Basic properties
 - Views
-	- Tipos: ImageView, Button, TextView, EditText, TextInputEditText.  
-	- Propiedades de cada uno
-	- ClickListeners programáticos vs xml  
-	- Estados: visibles, invisibles, etc.
+	- Types: ImageView, Button, TextView, EditText, TextInputEditText.  
+	- Basic properties
+	- Programmatic ClickListeners vs xml  
+	- States: visible, invisible, etc.
 - Activities
-	- Definición
-	- Ciclo de vida
-	- Implementación
+	- Definition
+	- Lifecycle
+	- Implementation
 - Fragments
-	- Definición  
-	- Ciclo de vida  
-	- Formas de implementación (xml <fragment> | programáticamente)  
+	- Definition  
+	- Lifecycle  
+	- Implementation (xml <fragment> | programmatically)  
 	- FragmentManager
 - Broadcast Receivers
-	- Definición
-	- Ciclo de vida  
-	- Formas de implementación (xml <fragment> | programáticamente)  
+	- Definition
+	- Lifecycle  
+	- Implementation (xml <fragment> | programmatically)  
 - Services
-	- Definición
-	- Usos comunes
+	- Definition
+	- Common uses
 - Content providers
-	- Definición
+	- Definition
 - Manifest
-	- Tipos de tags. Componentes de Android (Activities, BReceivers, Services, CProviders)
-	- Permisos (definición). Configuración de la aplicación (icons, name, theme, etc.)
+	- Tags. Android components (Activities, BReceivers, Services, CProviders)
+	- Permissions (definition). App configuration (icons, name, theme, etc.)
 - Gradle
-	- Para que sirve?  
-	- Build.gradle (proyecto y modulo app. Tasks de build y compilación)
-- Manejo de IDE
+	- What is it for?  
+	- Build.gradle (project and app module, build and compilation tasks)
+- IDE handling
 	- Android Studio - InteliJ  
-	- Lectura de logs  
+	- Log analysis
 	- AVD
 - Adapters
-	- BaseAdapter. Derivados (SimpleCursorAdapter, ArrayAdapter, etc.)
+	- BaseAdapter and implementations (SimpleCursorAdapter, ArrayAdapter, etc.)
 - Intent
-	- Definicion. Adicionales: putExtra, etc.  
-	- Intent implícitos vs explícitos
+	- Definition. Properties: putExtra, etc.  
+	- Implicit vs explicit Intents
 - Modal Views
 	- Alerts  
 	- Dialogs
 	- Progressbar
-- Manejo basico de recursos
-	- Agregar y usar strings, dimens, colors, etc.
+- Resources (Basic knowledge)
+	- Adding and using strings, dimens, colors, etc.
 
 # Engineer 2
 
@@ -55,192 +55,196 @@
 	- RelativeLayout vs ConstraintLayout  
 	- Responsive UI
 - CustomViews
-	- Cómo definirlos.  
-	- XML involucrados (attr.xml, styles.xml, colors.xml, etc)  
+	- Implementation
+	- XML used (attr.xml, styles.xml, colors.xml, etc.)  
 	- Shapes
 - Activities
-	- Ciclo de vida (callbacks y qué se ejecuta en cada uno)  
-	- Estado de un activity (background, foreground, superpuesto por un dialogo modal, etc).
+	- Lifecycle (callbacks and what happens in every call)  
+	- Activity states (background, foreground, etc.)
 - Fragments
-	- Ciclo de vida (callbacks y qué se ejecuta en cada uno)  
-	- Relación con ciclo de vida de un activity  
-	- Comunicación entre Fragment y Activity. (Callbacks)  
-	- Comunicación entre Fragments (Callbacks)
+	- Lifecycle (callbacks and what happens in every call)  
+	- Relation with Activity lifecycle  
+	- Communication between fragments and activities (Callbacks)  
+	- Communication between fragments (Callbacks)
 - Broadcast Receivers
-	- Implementación  
-	- Definición por manifest vs prográmaticamente - Definir sus intent action.  
-	- LocalBroadcastManager, por qué y cuándo usarlo (Mantener los eventos dentro del contexto de la app)
+	- Implementation  
+	- MAnifest definition vs programmatically - Intent actions definition.  
+	- LocalBroadcastManager, why and when to use it? (Keep events inside app context)
 - Services
-	- Tipos de services. (Services vs BoundServices)  
-	- Implementación (Extendiendo clase Service - clase IntentService)  
-	- Diferencias entre Service vs IntentService.  
-	- Formas de arrancarlos y detenerlos
+	- Types (Services vs BoundServices)  
+	- Implementation (Extending Service class or IntentService class)  
+	- Differences between Service and IntentService.  
+	- How to start a service? How to stop a service?
 - Content providers
-	- Tipos: Genericos vs Custom.  
-	- Cómo usar los genéricos
+	- Types: General vs Custom.  
+	- How to use general content providers?
 - Manifest
 	- Intent filters, Intent actions, Data types, etc.
-- Permisos
+- Permissions
 	- Manifest permissions vs Runtime permissions.  
-	- Implementación de runtime permissions.
+	- Runtime permissions implementation.
 - Material design
-	- Conocimiento general de componentes de material design. 						Implementación.  
-	- Librerías (legacy: support - androidx)
+	- General knowledge of Material design components.
+	- Implementation.  
+	- Libraries (legacy: support - androidx)
 - Conectividad
-	- Retrofit | Retrofit2 (Conocimientos basicos)  
-	- Serialización y deserialización de manera nativa  
-	- Librerías para serialización y deserialización (Gson, Jackson, etc.)
+	- Retrofit | Retrofit2 (Basic knowledge)  
+	- Serialization and deserialization (native way)  
+	- Serialization and deserialization using libraries (Gson, Jackson, etc.)
 - Gradle
-	- settings.gradle (dependencias de modulos en un mismo bundle)  
+	- settings.gradle
 	- gradle.properties
-- Manejo de IDE
-	- Breakpoints y debugger  
-	- Emuladores: propios de AS vs Genymotion  
+- IDE handling
+	- Breakpoints and debugger  
+	- Emulators: AS emulator vs Genymotion  
 	- SDK Manager  
 	- Layout inspector
 - Adapters
-	- RecyclerView.Adapter con ViewHolder pattern
+	- RecyclerView.Adapter
 - Intent
 	- Intent services, Intent filters  
-	- PendingIntents
+	- PendingIntent
 - Tests
-	- Unit Test (Conocimientos básicos)  
-	- Instrumented Test (Conocimientos básicos)
-- Hilos
-	- Conocimientos de hilos en Android  
+	- Unit Test (Basic knowledge)  
+	- Instrumented Test (Basic knowledge)
+- Threads
+	- Android threads 
 	- Thread UI
 - AsyncTask
-	- Definición  
-	- Implementación
+	- Definition  
+	- Implementation
 - ViewPager
-	- Que es? Implementación  
+	- Definition
+	- Implementation  
 	- PagerAdapter
-- Almacenamiento
-	- Ubicación (estructura de almacenamiento)  
-	- SharedPreferences (contexto global o activity)  
-	- SQLite. Implementación  
-	- Interno vs Externo (device memory vs SD external storage)
-- Notificaciones
-	- Definición. Implementación  
+- Storage
+	- Location (storage structure)  
+	- SharedPreferences (global context or activity)  
+	- SQLite - Implementation  
+	- Internal vs External (device memory vs SD external storage)
+- Notifications
+	- Definition
+	- Implementation  
 	- Notification builder  
 	- Notification Manager
 - App configuration
-	- Rotación de pantalla  
-	- Densidades  
-	- Internacionalización
-- Tags xml en layouts
+	- Screen rotation
+	- Screen densities
+	- Internationalization
+- Xml tags in layouts
 	- Include  
 	- Merge
 	- Fragment
-- Arquitectura android (ART)
-	- Capas de arquitectura
+- Android architecture (ART)
+	- Architecture layers
 - Widgets
-	- Estáticos y dinámicos
+	- Statics and dynamics
 
 # Engineer 3
 
 - CustomViews
-	- Manejo de gradientes y sombras, etc.
+	- Gradients and shadows handling, etc.
 - ViewModel
-	- ¿Qué es? ¿Para qué sirve?  
-	- Casos de aplicación: Ej: comunicación entre dos fragments dentro de un activity
-	- Implementación
-	- Ciclo de vida del ViewModel
+	- Definition. What is it for?
+	- Application cases
+	- Implementation
+	- ViewModel lifecycle
 - Fragments
-	- Comunicación entre Fragments por ViewModel
+	- Communication between fragments using ViewModel
 - Services
-	- Implementación de BoundServices
-- Content providers
-	- Implementación custom  
-	- Manejador de concurrencia (definir operaciones CRUD con syncronized)
-- Permisos
-	- Librerías para pedir permisos (Ej: Dexter)
+	- BoundServices implementation
+- Permissions
+	- Libraries for runtime permissions (e.g. Dexter)
 - Material design
-	- Animaciones, transiciones, transformaciones  
+	- Animations, transitions, transformations  
 	- Material design guidelines - brandlines
 - Gradle
 	- BuildVariants: main, release, prod, debug, etc.  
 	- Custom tasks, flavors, dimensiones
 - Tests
-	- Unit Test, librerías  
+	- Unit Test, libraries  
 	- Instrumented Test
 - ViewPager
-	- PagerTransformer para animaciones
-- Librerías de terceros para almacenamiento
-	- ¿Cuáles hay? Realm, Firebase, etc.  
-	- Ventajas a la persistencia local de Android
+	- PagerTransformer for animations
+- AsyncTask
+	- Memory Leaks (explanation and how to solve it)
+- Third party libraries for storage
+	- Realm, Firebase, etc.  
+	- Advantages over native option
 - App configuration
 	- ConfigurationManager
-- Patrones de arquitectura
+- Architecture patterns
 	- MVP
 	- MVC
 	- MVVM
-- Performance y seguridad
-	- Conceptos básicos
-- Manejo de multimedia
-	- Video, Audio e Imágenes
+- Performance and security
+	- Basic concepts
+- Media handling
+	- Video, audio and images
 - Kotlin
-	- Diferencias con java  
-	- Por qué usar Kotlin. Ventajas  
-	- Sintaxis y semántica
-- Conocimiento de librerías de 3eros
+	- Differences with Java  
+	- Why should we use Kotlin? Advantages
+	- Syntax and semantics
+- Third party libraries
 	- Glide  
 	- Picasso  
 	- Volley  
 	- Otras
-- Conectividad
-	- Funcionamiento interno de Retrofit  
+- Connectivity
+	- Retrofit internal behaviour
 	- HttpUrlConnection
-- Publicación en Play Store
-	- Generación de APK firmados  
-	- Gestión de versiones dentro de Google Play Console
+- Play Store app publication
+	- Signed APK generation  
+	- Version control inside Google Play Console
 
 # Senior
 
+- Content providers
+	- Custom content providers implementation
+	- Concurrency manager (CRUD operations with synchronized)
 - Tests
 	- UI test automation (Expresso, Appium)
-- Notificaciones
-	- Locales vs Push notifications (Google cloud messaging, Firebase)
+- Notifications
+	- Local notifications vs Push notifications (Google cloud messaging, Firebase)
 - Firebase
-	- Que es? Para que sirve? Integración con una android app  
-	- Usos (database, push notifications, etc..)
-- Performance y seguridad
-	- Ofuscación de código  
+	- Definition. What is it for? Android app integration 
+	- Uses (database, push notifications, etc.)
+- Performance and security
+	- Code obfuscation  
 	- Proguard - Dexguard  
 	- Lint
 - Task
-	- Definición  
-	- Características  
+	- Definition  
+	- Features  
 	- TaskStackBuilder  
 	- TaskAffinity  
 	- Task FLAGS
 - DeepLink
-	- Implementación y uso de wizard
+	- Implementation and AS Wizard
 - JobScheduler
-	- Definición - Uso  
-	- Implementación
-- Sensores
-	- Acelerómetro, giroscopio, campo magnético, luz, etc.
+	- Definition - Use  
+	- Implementation
+- Sensors
+	- Accelerometer, gyroscope, magnetic field, light, etc.
 - Bluetooth
-	- Manejo de intents, permisos, custom service
+	- Intent handling, permissions, custom service
 - Canvas
-	- Dibujo en bajo nivel usando View y Surface View
-- Optimización de recursos
-	- Memoria, Batería
+	- Drawing using View and SurfaceView
+- Resources optimization
+	- Memory, Batery
 - Jetpack
-	- Que es? Componentes
-- Accesibilidad
-	- Conceptos básicos  
-	- Implementación
+	- Definition
+	- Components
+- Accesibility
+	- Basic concepts  
+	- Implementation
 - AlarmManager
-	- Definición  
-	- Implementación
-- AsyncTask
-	- Memory Leaks (explicación y cómo resolverlo)
+	- Definition  
+	- Implementation
 - Google maps API's
-	- Integración de google maps con app  
+	- Google maps integration
 	- Apis: geocoding, distance, etc.  
-	- Google developer's console. (Crear una api key, restricciones de api key)
-- Programación reactiva
-	- Conceptos basicos  
+	- Google developer's console (Create api key, api key restrictions)
+- Reactive programming
+	- Basic concepts  
 	- RxJava
