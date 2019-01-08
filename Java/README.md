@@ -90,7 +90,7 @@
 	- HashMap and Hashtable
 	- HashSet
 - Spring	
-	- Conocimiento básico
+	- Basic concepts
 
 # Engineer 3
 
@@ -99,15 +99,15 @@
 	- Gradle
 - Web applications	
 - Web servers - Application server	
-	- Qué son
+	- Basic concepts
 	- Deployment descriptor
 - Servlet containers	
 - Servlets	
-	- Qué son
+	- Basic concepts
 	- Lifecycle
 	- Get and Post
 - JSPs	
-	- Arquitectura
+	- Architecture
 	- JSP processing
 	- Syntax
 	- JSF
@@ -118,7 +118,7 @@
 - Java memory handling	
 - Spring Boot	
 	- MVC Architecture
-	- Ventajas y desventajas
+	- Pros and cons
 - ORM
 	- Hibernate
 - Testing	
@@ -127,47 +127,48 @@
 
 # Senior
 
-- Microservicios	
-	- Tipos de arquitectura
-	- Gestión de la configuración.
-	- Gestión de logs.
-	- Gestión de los despliegues.
-- Base de datos
-	- Diferencias y ventajas
-	- Relacionales
+- Microservices	
+	- Different architectures
+	- Configuration management
+	- Log management
+	- Deployment management
+- Databases
+	- Differences between the databases
+	- Benefits
+	- Relationals
 		- MySQL
 		- MarianDB
 		- Oracle
-	- No relacionales
+	- Non-relationals
 		- MongoDB
 		- Redis
 		- Cassandra
 		- ElasticSearch	
-- Balanceador de carga			
-	- Métodos de conexión
+- Load balancers
+	- Conexion methods
 		- Round-Robin	
 		- Weighted Round-Robin	
 		- LeastConnection	
 		- Weighted LeastConnection	
 		- Ip-hash
-	- Uso de algún balanceador
+	- Load balancers ezamples and uses
 		- NGINX
 		- Traefik	
-- Gestión de los despliegues.			
-	- Kubernetes	
+- Deployment management
+	- Kubernetes
 	- Openshift
-- Patrones
-	- Diseño y Arquitectura		
-	- Diferencias y ventajas		
-	- Mesage broker
-		- Patrones de mensajeria	
+- Patterns
+	- Design and architecture
+	- Differences and benefits		
+	- Mesage brokers
+		- Messaging patterns
 			- prod/sub
-		- Uso de algún AMQP
+		- AMQP
 			- RabbitMQ
 			- Kafka
 			- ZeroMQ
-- Autenticación y Autorización
-	- Autenticarse con un endpoint
-- Versiones de Java			
-	- Ventajas y desventajas		
-- SOLID principles			
+- Authentication and authorization
+	- Authentication against an endpoint
+- Java versions
+	- Pros and cons
+- SOLID principles		
