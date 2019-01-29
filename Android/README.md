@@ -137,6 +137,7 @@ Unit Test (Basic knowledge) | Engineer 2
 Instrumented Test (Basic knowledge) | Engineer 2
 Unit Test, libraries | Engineer 3
 Instrumented Test | Engineer 3
+UI test automation (Expresso, Appium) | Senior
 
 Threads | Suggested Seniority
 ----|----
@@ -169,6 +170,7 @@ Definition | Engineer 2
 Implementation | Engineer 2
 Notification builder | Engineer 2
 Notification Manager | Engineer 2
+Local notifications vs Push notifications (Google cloud messaging, Firebase) | Senior
 
 App configuration | Suggested Seniority
 ----|----
@@ -216,6 +218,9 @@ MVVM | Engineer 3
 Performance and security | Suggested Seniority
 ----|----
 Basic concepts | Engineer 3
+Code obfuscation | Senior
+Proguard - Dexguard | Senior
+Lint | Senior
 
 Media handling | Suggested Seniority
 ----|----
@@ -239,54 +244,66 @@ Play Store app publication | Suggested Seniority
 Signed APK generation | Engineer 3
 Version control inside Google Play Console | Engineer 3
 
-# Senior
+Firebase | Suggested Seniority
+----|----
+Definition. What is it for? Android app integration | Senior
+Uses (database, push notifications, etc.) | Senior
 
-- Content providers
-	- Custom content providers implementation
-	- Concurrency manager (CRUD operations with synchronized)
-- Tests
-	- UI test automation (Expresso, Appium)
-- Notifications
-	- Local notifications vs Push notifications (Google cloud messaging, Firebase)
-- Firebase
-	- Definition. What is it for? Android app integration
-	- Uses (database, push notifications, etc.)
-- Performance and security
-	- Code obfuscation  
-	- Proguard - Dexguard  
-	- Lint
-- Task
-	- Definition  
-	- Features  
-	- TaskStackBuilder  
-	- TaskAffinity  
-	- Task FLAGS
-- DeepLink
-	- Implementation and AS Wizard
-- JobScheduler
-	- Definition - Use  
-	- Implementation
-- Sensors
-	- Accelerometer, gyroscope, magnetic field, light, etc.
-- Bluetooth
-	- Intent handling, permissions, custom service
-- Canvas
-	- Drawing using View and SurfaceView
-- Resources optimization
-	- Memory, Batery
-- Jetpack
-	- Definition
-	- Components
-- Accesibility
-	- Basic concepts  
-	- Implementation
-- AlarmManager
-	- Definition  
-	- Implementation
-- Google maps API's
-	- Google maps integration
-	- Apis: geocoding, distance, etc.  
-	- Google developer's console (Create api key, api key restrictions)
-- Reactive programming
-	- Basic concepts  
-	- RxJava
+Task | Suggested Seniority
+----|----
+Definition | Senior
+Features | Senior
+TaskStackBuilder | Senior
+TaskAffinity | Senior
+Task FLAGS | Senior
+
+DeepLink | Suggested Seniority
+----|----
+Implementation and AS Wizard | Senior
+
+JobScheduler | Suggested Seniority
+----|----
+Definition - Use | Senior
+Implementation | Senior
+
+Sensors | Suggested Seniority
+----|----
+Accelerometer, gyroscope, magnetic field, light, etc. | Senior
+
+Bluetooth | Suggested Seniority
+----|----
+Intent handling, permissions, custom service | Senior
+
+Canvas | Suggested Seniority
+----|----
+Drawing using View and SurfaceView | Senior
+
+Resources optimization | Suggested Seniority
+----|----
+Memory, Battery | Senior
+
+Jetpack | Suggested Seniority
+----|----
+Definition | Senior
+Components | Senior
+
+Accessibility | Suggested Seniority
+----|----
+Basic concepts | Senior
+Implementation | Senior
+
+AlarmManager | Suggested Seniority
+----|----
+Definition | Senior
+Implementation | Senior
+
+Google maps API's | Suggested Seniority
+----|----
+Google maps integration | Senior
+Apis: geocoding, distance, etc. | Senior
+Google developer's console (Create api key, api key restrictions) | Senior
+
+Reactive programming | Suggested Seniority
+----|----
+Basic concepts | Senior
+RxJava | Senior
