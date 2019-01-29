@@ -1,201 +1,243 @@
-# Engineer 1
+# Android Learning Topics
 
-- ViewGroups
-	- RelativeLayout, LinearLayout, ScrollView  
-	- Basic properties
-- Views
-	- Types: ImageView, Button, TextView, EditText, TextInputEditText.  
-	- Basic properties
-	- Programmatic ClickListeners vs xml  
-	- States: visible, invisible, etc.
-- Activities
-	- Definition
-	- Lifecycle
-	- Implementation
-- Fragments
-	- Definition  
-	- Lifecycle  
-	- Implementation (xml <fragment> | programmatically)  
-	- FragmentManager
-- Broadcast Receivers
-	- Definition
-	- Lifecycle  
-	- Implementation (xml <fragment> | programmatically)  
-- Services
-	- Definition
-	- Common uses
-- Content providers
-	- Definition
-- Manifest
-	- Tags. Android components (Activities, BReceivers, Services, CProviders)
-	- Permissions (definition). App configuration (icons, name, theme, etc.)
-- Gradle
-	- What is it for?  
-	- Build.gradle (project and app module, build and compilation tasks)
-- IDE handling
-	- Android Studio - InteliJ  
-	- Log analysis
-	- AVD
-- Adapters
-	- BaseAdapter and implementations (SimpleCursorAdapter, ArrayAdapter, etc.)
-- Intent
-	- Definition. Properties: putExtra, etc.  
-	- Implicit vs explicit Intents
-- Modal Views
-	- Alerts  
-	- Dialogs
-	- Progressbar
-- Resources (Basic knowledge)
-	- Adding and using strings, dimens, colors, etc.
+ViewGroups | Suggested Seniority
+----|----
+RelativeLayout, LinearLayout, ScrollView | Engineer 1
+Basic properties | Engineer 1
+ConstraintLayout, CoordinatorLayout, SwipeRefreshLayout | Engineer 2
+RelativeLayout vs ConstraintLayout | Engineer 2
+Responsive UI | Engineer 2
 
-# Engineer 2
+Views | Suggested Seniority
+----|----
+Types: ImageView, Button, TextView, EditText, TextInputEditText. | Engineer 1
+Basic properties | Engineer 1
+Programmatic ClickListeners vs xml | Engineer 1
+States: visible, invisible, etc. | Engineer 1
 
-- ViewGroups
-	- ConstraintLayout, CoordinatorLayout, SwipeRefreshLayout  
-	- RelativeLayout vs ConstraintLayout  
-	- Responsive UI
-- CustomViews
-	- Implementation
-	- XML used (attr.xml, styles.xml, colors.xml, etc.)  
-	- Shapes
-- Activities
-	- Lifecycle (callbacks and what happens in every call)  
-	- Activity states (background, foreground, etc.)
-- Fragments
-	- Lifecycle (callbacks and what happens in every call)  
-	- Relation with Activity lifecycle  
-	- Communication between fragments and activities (Callbacks)  
-	- Communication between fragments (Callbacks)
-- Broadcast Receivers
-	- Implementation  
-	- MAnifest definition vs programmatically - Intent actions definition.  
-	- LocalBroadcastManager, why and when to use it? (Keep events inside app context)
-- Services
-	- Types (Services vs BoundServices)  
-	- Implementation (Extending Service class or IntentService class)  
-	- Differences between Service and IntentService.  
-	- How to start a service? How to stop a service?
-- Content providers
-	- Types: General vs Custom.  
-	- How to use general content providers?
-- Manifest
-	- Intent filters, Intent actions, Data types, etc.
-- Permissions
-	- Manifest permissions vs Runtime permissions.  
-	- Runtime permissions implementation.
-- Material design
-	- General knowledge of Material design components.
-	- Implementation.  
-	- Libraries (legacy: support - androidx)
-- Conectividad
-	- Retrofit | Retrofit2 (Basic knowledge)  
-	- Serialization and deserialization (native way)  
-	- Serialization and deserialization using libraries (Gson, Jackson, etc.)
-- Gradle
-	- settings.gradle
-	- gradle.properties
-- IDE handling
-	- Breakpoints and debugger  
-	- Emulators: AS emulator vs Genymotion  
-	- SDK Manager  
-	- Layout inspector
-- Adapters
-	- RecyclerView.Adapter
-- Intent
-	- Intent services, Intent filters  
-	- PendingIntent
-- Tests
-	- Unit Test (Basic knowledge)  
-	- Instrumented Test (Basic knowledge)
-- Threads
-	- Android threads 
-	- Thread UI
-- AsyncTask
-	- Definition  
-	- Implementation
-- ViewPager
-	- Definition
-	- Implementation  
-	- PagerAdapter
-- Storage
-	- Location (storage structure)  
-	- SharedPreferences (global context or activity)  
-	- SQLite - Implementation  
-	- Internal vs External (device memory vs SD external storage)
-- Notifications
-	- Definition
-	- Implementation  
-	- Notification builder  
-	- Notification Manager
-- App configuration
-	- Screen rotation
-	- Screen densities
-	- Internationalization
-- Xml tags in layouts
-	- Include  
-	- Merge
-	- Fragment
-- Android architecture (ART)
-	- Architecture layers
-- Widgets
-	- Statics and dynamics
+Activities | Suggested Seniority
+----|----
+Definition | Engineer 1
+Lifecycle | Engineer 1
+Implementation (xml / programmatically) | Engineer 1
+FragmentManager | Engineer 1
+Lifecycle (callbacks and what happens in every call) | Engineer 2
+Activity states (background, foreground, etc.) | Engineer 2
 
-# Engineer 3
+Fragments | Suggested Seniority
+----|----
+Definition | Engineer 1
+Lifecycle | Engineer 1
+Implementation (xml / programmatically) | Engineer 1
+FragmentManager | Engineer 1
+Lifecycle (callbacks and what happens in every call) | Engineer 2
+Relation with Activity lifecycle | Engineer 2
+Communication between fragments and activities (Callbacks) | Engineer 2
+Communication between fragments (Callbacks) | Engineer 2
+Communication between fragments using ViewModel | Engineer 3
 
-- CustomViews
-	- Gradients and shadows handling, etc.
-- ViewModel
-	- Definition. What is it for?
-	- Application cases
-	- Implementation
-	- ViewModel lifecycle
-- Fragments
-	- Communication between fragments using ViewModel
-- Services
-	- BoundServices implementation
-- Permissions
-	- Libraries for runtime permissions (e.g. Dexter)
-- Material design
-	- Animations, transitions, transformations  
-	- Material design guidelines - brandlines
-- Gradle
-	- BuildVariants: main, release, prod, debug, etc.  
-	- Custom tasks, flavors, dimensiones
-- Tests
-	- Unit Test, libraries  
-	- Instrumented Test
-- ViewPager
-	- PagerTransformer for animations
-- AsyncTask
-	- Memory Leaks (explanation and how to solve it)
-- Third party libraries for storage
-	- Realm, Firebase, etc.  
-	- Advantages over native option
-- App configuration
-	- ConfigurationManager
-- Architecture patterns
-	- MVP
-	- MVC
-	- MVVM
-- Performance and security
-	- Basic concepts
-- Media handling
-	- Video, audio and images
-- Kotlin
-	- Differences with Java  
-	- Why should we use Kotlin? Advantages
-	- Syntax and semantics
-- Third party libraries
-	- Glide  
-	- Picasso  
-	- Volley  
-	- Otras
-- Connectivity
-	- Retrofit internal behaviour
-	- HttpUrlConnection
-- Play Store app publication
-	- Signed APK generation  
-	- Version control inside Google Play Console
+Broadcast Receivers | Suggested Seniority
+----|----
+Definition | Engineer 1
+Lifecycle | Engineer 1
+Implementation (xml / programmatically) | Engineer 1
+Manifest definition vs programmatically - Intent actions definition. | Engineer 2
+LocalBroadcastManager, why and when to use it? (Keep events inside app context) | Engineer 2
+
+Services | Suggested Seniority
+----|----
+Definition | Engineer 1
+Common uses | Engineer 1
+Types (Services vs BoundServices) | Engineer 2
+Implementation (Extending Service class or IntentService class) | Engineer 2
+Differences between Service and IntentService. | Engineer 2
+How to start a service? How to stop a service? | Engineer 2
+BoundServices implementation | Engineer 3
+
+Content providers | Suggested Seniority
+----|----
+Definition | Engineer 1
+Types: General vs Custom. | Engineer 2
+How to use general content providers?| Engineer 2
+Custom content providers implementation | Senior
+Concurrency manager (CRUD operations with synchronized) | Senior
+
+Manifest | Suggested Seniority
+----|----
+Tags. Android components (Activities, BReceivers, Services, CProviders) | Engineer 1
+Permissions (definition). App configuration (icons, name, theme, etc.) | Engineer 1
+Intent filters, Intent actions, Data types, etc. | Engineer 2
+
+Gradle | Suggested Seniority
+----|----
+What is it for? | Engineer 1
+Build.gradle (project and app module, build and compilation tasks) | Engineer 1
+settings.gradle | Engineer 2
+gradle.properties | Engineer 2
+BuildVariants: main, release, prod, debug, etc. | Engineer 3
+Custom tasks, flavors, dimensions | Engineer 3
+
+IDE handling | Suggested Seniority
+----|----
+Android Studio - InteliJ | Engineer 1
+Log analysis | Engineer 1
+AVD | Engineer 1
+Breakpoints and debugger | Engineer 2
+Emulators: AS emulator vs Genymotion | Engineer 2
+SDK Manager | Engineer 2
+Layout inspector | Engineer 2
+
+Adapters | Suggested Seniority
+----|----
+BaseAdapter and implementations (SimpleCursorAdapter, ArrayAdapter, etc.) | Engineer 1
+RecyclerView.Adapter | Engineer 2
+
+Intent | Suggested Seniority
+----|----
+Definition. Properties: putExtra, etc. | Engineer 1
+Implicit vs explicit Intents | Engineer 1
+Intent services, Intent filters | Engineer 2
+PendingIntent | Engineer 2
+
+Modal Views | Suggested Seniority
+----|----
+Alerts | Engineer 1
+Dialogs | Engineer 1
+Progressbar | Engineer 1
+
+Resources (Basic knowledge) | Suggested Seniority
+----|----
+Adding and using strings, dimensions, colors, etc. | Engineer 1
+
+Permissions | Suggested Seniority
+----|----
+Manifest permissions vs Runtime permissions. | Engineer 2
+Runtime permissions implementation. | Engineer 2
+Libraries for runtime permissions (e.g. Dexter) | Engineer 3
+
+Material design | Suggested Seniority
+----|----
+General knowledge of Material design components. | Engineer 2
+Implementation. | Engineer 2
+Libraries (legacy: support - androidx) | Engineer 2
+Animations, transitions, transformations | Engineer 3
+Material design guidelines - brandlines | Engineer 3
+
+Conectivity | Suggested Seniority
+----|----
+Retrofit / Retrofit2 (Basic knowledge) | Engineer 2
+Serialization and deserialization (native way) | Engineer 2
+Serialization and deserialization using libraries (Gson, Jackson, etc.) | Engineer 2
+Retrofit internal behaviour | Engineer 3
+HttpUrlConnection | Engineer 3
+
+Tests | Suggested Seniority
+----|----
+Unit Test (Basic knowledge) | Engineer 2
+Instrumented Test (Basic knowledge) | Engineer 2
+Unit Test, libraries | Engineer 3
+Instrumented Test | Engineer 3
+
+Threads | Suggested Seniority
+----|----
+Android threads | Engineer 2
+Thread UI | Engineer 2
+
+AsyncTask | Suggested Seniority
+----|----
+Definition | Engineer 2
+Implementation | Engineer 2
+Memory Leaks (explanation and how to solve it) | Engineer 3
+
+ViewPager | Suggested Seniority
+----|----
+Definition | Engineer 2
+Implementation | Engineer 2
+PagerAdapter | Engineer 2
+PagerTransformer for animations | Engineer 3
+
+Storage | Suggested Seniority
+----|----
+Location (storage structure) | Engineer 2
+SharedPreferences (global context or activity) | Engineer 2
+SQLite - Implementation | Engineer 2
+Internal vs External (device memory vs SD external storage) | Engineer 2
+
+Notifications | Suggested Seniority
+----|----
+Definition | Engineer 2
+Implementation | Engineer 2
+Notification builder | Engineer 2
+Notification Manager | Engineer 2
+
+App configuration | Suggested Seniority
+----|----
+Screen rotation | Engineer 2
+Screen densities | Engineer 2
+Internationalization | Engineer 2
+ConfigurationManager | Engineer 3
+
+Xml tags in layouts | Suggested Seniority
+----|----
+Include | Engineer 2
+Merge | Engineer 2
+Fragment | Engineer 2
+
+Android architecture (ART) | Suggested Seniority
+----|----
+Architecture layers | Engineer 2
+
+Widgets | Suggested Seniority
+----|----
+Statics and dynamics | Engineer 2
+
+CustomViews | Suggested Seniority
+----|----
+Gradients and shadows handling, etc. | Engineer 3
+
+ViewModel | Suggested Seniority
+----|----
+Definition. What is it for? | Engineer 3
+Application cases | Engineer 3
+Implementation | Engineer 3
+ViewModel lifecycle | Engineer 3
+
+Third party libraries for storage | Suggested Seniority
+----|----
+Realm, Firebase, etc. | Engineer 3
+Advantages over native option | Engineer 3
+
+Architecture patterns | Suggested Seniority
+----|----
+MVP | Engineer 3
+MVC | Engineer 3
+MVVM | Engineer 3
+
+Performance and security | Suggested Seniority
+----|----
+Basic concepts | Engineer 3
+
+Media handling | Suggested Seniority
+----|----
+Video, audio and images | Engineer 3
+
+Kotlin | Suggested Seniority
+----|----
+Differences with Java | Engineer 3
+Why should we use Kotlin? Advantages | Engineer 3
+Syntax and semantics | Engineer 3
+
+Third party libraries | Suggested Seniority
+----|----
+Glide | Engineer 3
+Picasso | Engineer 3
+Volley | Engineer 3
+Others | Engineer 3
+
+Play Store app publication | Suggested Seniority
+----|----
+Signed APK generation | Engineer 3
+Version control inside Google Play Console | Engineer 3
 
 # Senior
 
@@ -207,7 +249,7 @@
 - Notifications
 	- Local notifications vs Push notifications (Google cloud messaging, Firebase)
 - Firebase
-	- Definition. What is it for? Android app integration 
+	- Definition. What is it for? Android app integration
 	- Uses (database, push notifications, etc.)
 - Performance and security
 	- Code obfuscation  
