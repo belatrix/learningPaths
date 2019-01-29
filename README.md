@@ -4,14 +4,16 @@ Inside each folder you'll find the guide of each technology, with all the items 
 
 # Collaborators
 
+These people helped us a lot in the initial drafts of the guides. Thanks a lot!
+
 ## General Research
 
-Hansy Schmitt hschmitt@belatrixsf.com
+Hansy Schmitt 
 
 ## Android
 
 - Lucas Farías
-- Juan Manuel Rodríguez jrodriguez@belatrixsf.com
+- Juan Manuel Rodríguez
 - Evangelina Selman eselman@belatrixsf.com
 
 ### Mentors
@@ -24,7 +26,7 @@ Hansy Schmitt hschmitt@belatrixsf.com
 
 - Gabriel Guzmán gguzman@belatrixsf.com
 - Evangelina Selman eselman@belatrixsf.com
-- Ever Valdés evaldes@belatrixsf.com
+- Ever Valdés
 
 ### Mentors
 
@@ -77,7 +79,7 @@ Hansy Schmitt hschmitt@belatrixsf.com
 - Carlos Albornoz calbornoz@belatrixsf.com
 - Romina Babugia rbabugia@belatrixsf.com
 - Nahuel Melo nmelo@belatrixsf.com
-- Juan Manuel Rodríguez jrodriguez@belatrixsf.com
+- Juan Manuel Rodríguez
 - Mariano Sosa msosa@belatrixsf.com
 
 ### Mentors
