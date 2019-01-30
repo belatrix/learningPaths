@@ -7,17 +7,21 @@ Inside each folder you'll find the guide of each technology, with all the items 
 ## Create a pull request
 
 1. Log into GitHub
-2. Go to the repository: https://github.com/belatrix/learningPaths
+2. Go to the Learning Paths repository: https://github.com/belatrix/learningPaths
 3. Fork the repository in your GitHub account by clicking the "Fork" button
-4. This will open a popup to select where we want to fork it. Select the user's personal account.
-5. This process will create a for of the repository in the user's account.
+4. This will open a popup to select where we want to fork it. Select the user's personal account
+5. This process will create a fork of the repository in the user's account.
 6. Apply all the changes in the forked repository
-7. Create the pull request from it: https://help.github.com/articles/creating-a-pull-request-from-a-fork/
-8. After the PR is requested, it's approved (or not) by the corresponding moderators.
+6.1 Create a branch to add the changes
+6.2 You can use this editor to create/update the README.md files: https://stackedit.io/app
+6.3 Commit and push the changes to the repository
+7. Create the pull request from the original repo: https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+8. After the PR is requested, it's approved (or not) by the corresponding moderators
 
 ## Synchronize the repositories
 
- 1. Follow this guide: https://help.github.com/articles/syncing-a-fork/
+ 1. If you have already forked the repository in the past, you'll need to syncronize it before adding new changes.
+ 2. Follow this guide: https://help.github.com/articles/syncing-a-fork/
 
 # Collaborators
 
