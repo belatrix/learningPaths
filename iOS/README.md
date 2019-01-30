@@ -1,1 +1,282 @@
-# iOS
+# Engineer 1
+
+ - iOS components
+	 - UIView  
+	 - UIViewController  
+	 - UIImageView  
+	 - UIScrollView  
+	 - UITabBar
+ - Lifecycle (ios y VC)
+	 - iOS App
+		 - Not Running
+		 - Inactive
+		 - Active
+		 - Background
+		 - Suspended
+	 - VC lifecycle
+		 - init
+		 - loadView
+		 - viewDidLoad
+		 - viewWillAppear
+		 - viewDidAppear
+		 - didReceiveMemoryWarning
+		 - viewWillDisappear
+		 - viewDidDisappear
+ - Basic knowledge of layout
+	 - Anatomy of a Constraint
+	 - Ambiguous Layouts
+	 - Logical Errors
+	 - Programmatically constraints
+	 - Custom Layouts
+ - Xcode tools
+	 - Debugging with Xcode
+	 - Enable/disable breakpoints
+	 - Conditional breakpoints
+	 - Check client logs
+	 - Evaluate expressions through
+ - Navigations
+	 - UINavigationController  
+	 - UINavigationBar  
+	 - UIBarButtonItem  
+	 - Types: Modal, push, pop, root  
+	 - Toolbar  
+	 - Storyboard: prepareForSegue
+ - Basic knowledge of storyboard
+	 - what is  a storyboard
+	 - scenes
+	 - transitions
+	 - segue
+ - Single view application
+	 - Create basic UI
+	 - IBOutlets
+	 - First navigation between two controllers
+ - Collections
+	 - NSArray  
+	 - NSDictionary  
+	 - NSSet  
+	 - Mutable and non mutable objects  
+	 - How to iterate
+ - Basic knowledge of UITableView, UICollectionView, StackView
+	 - Implementation
+	 - Delegate methods
+	 - Differences between them
+ - Basic knowledge of protocols and delegates
+		 
+# Engineer 2
+ - Permissions
+	- Types
+	- Customization (info.plist)  
+	- Appstore rules
+- Basic animations
+- Integration with REST services
+	- JSON Parsing 
+	- Hooking Up a REST API to a Table View 
+	- Loading UITableViewCell Images from an API  
+	- Pagination (Load More on Scroll)
+	- Adding More API Calls
+- External libraries
+	- How to include and use them
+- Dependencies handler
+	- Cocoapods
+		- Pod init
+		- Pod install vs Pod update
+		- Podspec 
+		- Troubleshooting to common problems
+- Basic knowledge of threads
+	- NSTimer 
+	- NSThread  
+	- NSOperation  
+	- NSOperationBlock  
+	- Main thread and background threat  
+	- UI  update
+- Assets
+	- Assets Catalogs    
+	- Content types  
+	- Layer source representation format  
+	- AppIcon and LaunchImage  
+	- Custom AppIcons  
+	- Interface Guidelines  
+	- Diferrent density
+- Storage
+	- NSUserDefaults  
+	- Keychain  
+	- SQLite (Realm FMDB)  
+	- CoreData  
+	- Files
+- Block
+	- Define
+	- Usage  
+	- Parameters and returning types
+	- Typedef  
+	- weakreferences
+- Enums, typedef, structures
+	- NS_ENUM  
+	- NS_OPTIONS  
+	- typedef NS_ENUM vs typedef enum
+- Categories and extensions
+	- Definition  
+	- Usage  
+	- Pros/cons
+- Custom protocols and delegates
+	- Create your own Protocol  
+	- How to use  it
+	- How integreate it in your class  
+	- How set an optional o required protocol in the class
+- ARC - strong and weak references
+	- Definition  
+	- How it works  
+	- Avoid cycle references  
+	- strong vs weak vs Unowned  
+	- strong references closures
+- Basic knowledge of Unit Testing
+
+# Engineer 3
+
+ - Core data
+	 - Managed Object Model
+	 - Managed Object Context
+	 - Persistent Store Coordinator
+ - Keychain
+	 - Definition
+	 - How it works  
+	 - Add new item 
+	 - Get items from keychain  
+	 - Type of info store in keychain  
+	 - Export/import items  
+	 - Items attributes
+ - MVP - MVC
+	 - How to use them
+	 - When to use them
+	 - Pros/cons
+ - Local notifications
+	 - Generate a notification
+	 - Listen a notification
+	 - Remove listener
+	 - PushKit framework
+	 - Notification center and contents
+	 - Triggers
+	 - Notification Categories and user actions
+	 - Notificaction Responses
+	 - NSNotificationCenter
+ - Push Notifications
+	 - Set a remote notification server
+	 - Register app using APNs
+	 - Existent providers
+	 - Capabilities
+ - Resources management
+	 - CPU
+	 - memory
+	 - battery
+ - GCD - Multi-threading
+	 - Main Queue
+	 - Global Queue
+	 - Custom Queues
+	 - QoS (Quality of Service)
+	 - Queues with async
+	 - Queues with sync
+ - Using Objective-C Classes in Swift - Bridging header
+	 - Use swift code in objective c  classes
+	 - Use Objective c code in swift classes
+	 - Bridging header configuration
+ - KVC - KVO
+ - Xcode Instruments
+	 - Memory leaks
+	 - Code performance issues
+	 - CPU Profiling
+	 - Reference cycles
+ - ADA
+	 - VoiceOver  
+	 - UIKit accesibility  
+	 - UIAccesibility  
+	 - Behaviors, actions  
+	 - Elements, containers  
+	 - Navigation, notifications  
+	 - Capabilities
+ - Basic knowledge of Core Location 
+
+# Senior
+
+ - Advanced animations
+ - VIPER
+	 - What is it
+	 - Pros/cons
+	 - Components
+		 - View
+		 - Interactor
+		 - Presenter
+		 - Entity
+		 - Router
+	 - When to use it
+ - Intermediate knowledge of Core data
+ - Local Authentication Framework
+	 - Create and Configure a Context  
+	 - Test Policy Availability  
+	 - Evaluate a Policy  
+	 - Fallback Alternative to Biometrics  
+	 - Adjustments for Face ID
+	 - LAContext  
+	 - Accessing Keychain Items with Biometrics  
+	 - LAError
+ - Basic knowledge of Core ML Models
+ - Applewatch
+ - UiKit Dynamics
+	 - UIDynamicAnimator  
+	 - Dynamic Items  
+	 - Behaviors  
+	 - UIRegion  
+	 - Gravity, boundaries, handle collsions  
+	 - Behaviors dynamically  
+	 - User Interaction
+ - Core Graphics
+ - Custom Pods
+	 - Create your Podspec Repository  
+	 - Add your Private Repo to your Cocoapods Installation  
+	 - Create your Pod Repo  
+	 - Generate the Pod Project  
+	 - Edit Podspec File  
+	 - Add code in your Pod  
+	 - Push your Pod in the Specs Repo  
+	 - Tagging  
+	 - Push to Spec Repo
+ - Custom Frameworks
+ - Intermediate knowledge of Core location
+	 - CLLocationManager  
+	 - CLLocationManagerDelegate  
+	 - CLLocation  
+	 - CLError  
+	 - kCLErrorDomain
+ - Accelerometer and gyroscope
+ - TCP/IP connections
+ - Testflight
+ - Code Signing
+	 - Signing and Running Development Builds  
+	 - Beta Testing  
+	 - Distribution  
+	 - Benefits and limitations of Code Signing  
+	 - Signing Identity, Public & Private Key, Keychain Application  
+	 - Provisioning Profile & App ID
+ - Build Management
+	 - Targets
+	 - Schemes
+ - Reactive Programmation
+
+# SME
+
+ - AR
+	 - Augmented Reality with back and front camera  
+	 - Verifying Device Support and User Permission  
+	 - ARSession - ARConfiguration  
+	 - 3D and 2D views  
+	 - ARWorldTrackingConfiguration  
+	 - AR World Sharing and Persistence  
+	 - Image Detection and Tracking  
+	 - Environment Texturing  
+	 - Object Detection  
+	 - Hit Testing and Real-World Positions  
+	 - Camera and Scene Details  
+	 - Face Tracking  
+	 - Specialized Configurations
+ - Advanced knowledge of Core ML Models 
+ - Advanced knowledge of Reactive programmation 
+ - Advanced knowledge of Core data
+ - Advanced knowledge of Core location
