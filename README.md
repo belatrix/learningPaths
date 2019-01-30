@@ -12,9 +12,9 @@ Inside each folder you'll find the guide of each technology, with all the items 
 4. This will open a popup to select where we want to fork it. Select the user's personal account
 5. This process will create a fork of the repository in the user's account.
 6. Apply all the changes in the forked repository
-6.1 Create a branch to add the changes
-6.2 You can use this editor to create/update the README.md files: https://stackedit.io/app
-6.3 Commit and push the changes to the repository
+ 1. Create a branch to add the changes
+ 2. You can use this editor to create/update the README.md files: https://stackedit.io/app
+ 3. Commit and push the changes to the repository
 7. Create the pull request from the original repo: https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 8. After the PR is requested, it's approved (or not) by the corresponding moderators
 
