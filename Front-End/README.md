@@ -150,3 +150,14 @@
 	- Strict Mode
 	- Uncontrolled Components
 	- Web Components
+- VueJS
+	- Basic data Binding
+	- Lists
+	- Vue Events listeners
+	- Attribute and class binding
+	- Components
+	- Templates
+	- Routing
+	- Vue Filters
+	- Vue Subclassing
+	- Vue transitions
