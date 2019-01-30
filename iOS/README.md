@@ -1,10 +1,10 @@
 # Engineer 1
 
  - iOS components
-	 - UIView  
-	 - UIViewController  
-	 - UIImageView  
-	 - UIScrollView  
+	 - UIView
+	 - UIViewController
+	 - UIImageView
+	 - UIScrollView
 	 - UITabBar
  - Lifecycle (ios y VC)
 	 - iOS App
@@ -61,7 +61,7 @@
 	 - Delegate methods
 	 - Differences between them
  - Basic knowledge of protocols and delegates
-		 
+
 # Engineer 2
  - Permissions
 	- Types
