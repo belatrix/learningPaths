@@ -30,7 +30,7 @@ These people helped us a lot in the initial drafts of the guides. Thanks a lot!
 
 ## General Research
 
-Hansy Schmitt 
+- Hansy Schmitt 
 
 ## Android
 
