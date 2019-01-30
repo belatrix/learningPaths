@@ -2,6 +2,23 @@
 
 Inside each folder you'll find the guide of each technology, with all the items group by seniority.
 
+# Content creation process
+
+## Create a pull request
+
+1. Log into GitHub
+2. Go to the repository: https://github.com/belatrix/learningPaths
+3. Fork the repository in your GitHub account by clicking the "Fork" button
+4. This will open a popup to select where we want to fork it. Select the user's personal account.
+5. This process will create a for of the repository in the user's account.
+6. Apply all the changes in the forked repository
+7. Create the pull request from it: https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+8. After the PR is requested, it's approved (or not) by the corresponding moderators.
+
+## Synchronize the repositories
+
+ 1. Follow this guide: https://help.github.com/articles/syncing-a-fork/
+
 # Collaborators
 
 These people helped us a lot in the initial drafts of the guides. Thanks a lot!
