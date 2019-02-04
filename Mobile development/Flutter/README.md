@@ -1,0 +1,241 @@
+# Engineer 1
+- Stateless Widget
+- Stateful Widget
+	- LifeCycle
+- Basic Widgets
+	- Basic Knowledge 
+	- ListView
+	- Stacks
+	- Columns
+	- Rows
+	- Container
+	- Images
+	- Text
+	- Icon
+	- Buttons
+- Multi-child Layout
+	- Row
+	- Column
+	- Stack
+	- GridView
+- Navigator
+	- Push and Pop RoutesPages
+- Hot Reload
+- Patterns
+	- MVC
+- IDEs Knowledge
+	- Android Studio
+	- VS code
+	- IntelliJ 
+- Alert Dialog
+- Device Emulator
+	- Create Emulators
+- Dart Collections
+	- List
+	- Maps
+- Concept of dynamic type
+- Abstract classes and inheritance
+- Functions
+	- Positioned parameters
+	- Optionals parameter
+- Version Control
+	- Basic Knowledge
+- Enums
+- User Input Widgets
+	- TextField
+	- CheckBox
+	- Radio
+	- Switch
+	- Slider
+- Date And Time Widgets
+	- Time Handling
+- App LyfeCycle 
+- Flutter Single threaded
+	- Basic Concepts
+- Localizations
+- Material Design
+	- Basic Concept
+- ListView
+	- Horizontal and vertical orientations
+	- Divider
+	- ListTile
+	- Dynamic data loading
+
+# Engineer 2
+- Material App
+- Widget Keys
+- Scaffold
+	- AppBar
+	- TabBar
+	- Drawer
+	- BottomNavigationBar
+- PopUpMenu
+- Cupertino Widgets
+- DropDownButton
+- Text
+	- RichText
+	- Styling 
+- Styling
+	- MediaQuery
+	- Theme
+- Expanded Widget
+- Single-Child Layout Widgets
+	- Medium Knowledge 
+	- Container
+	- Padding 
+	- Center
+	- Align
+	- FittedBox
+	- AspectRatio
+	- ConstrainedBox
+	- IntrinsicHeight 
+	- IntrinsicWidth
+	- SizedBox
+- Multi-child Layout
+	- Dynamic data Listview
+	- Dynamic data GridView
+	- Dynamic data Table
+	- Dynamic data Wrap
+- SingleChildScrollView
+- RawKeyboardListener
+- InheritedWidget 
+- InheritedModel
+- Dialogs
+	- SimpleDialog
+	- BottomSheet
+	- SnackBar
+- Cards
+- Form group 
+	- FormField
+- ExpansionPanel
+- JSON
+	- Manual Serialization
+- Basic Touch Interactions
+	- GestureDetector
+- Http Package
+	- Basic Concepts
+- Path Provider
+- Patterns
+	- MVVM
+	- MVP
+- Dependence manager
+	- Pubspec references 
+- App debugging 
+- Widget inspector
+- Flutter Outline
+- Futures - async
+	- Basic Knowledge 
+
+# Engineer 3
+- Multi-child Layout
+	- Layout Builder
+	- CustomMultiChildLayout
+	- ListBody
+- Touch Interactions
+	- Draggable
+	- LongPressDragable
+	- DragTarget
+	- Dismissible
+	- Ignore Pointer
+	- AbsorbPointer
+- SliverAppBar
+- NestedScrollView
+- NotificationListener
+- Animation Controller
+	- Animation Curves
+- Generics
+- JSON
+	- Automated Serialization
+- Play Store app publication
+	- Signed APK generation
+- App Store app publication
+	- Signed .ipa generation
+- Pagination 
+	- Lazy load in Lists
+	- Lazy load in Grids
+- Http Package
+	- Solid Concepts
+- Futures
+- Async
+	- StreamBuilder
+	- FutureBuilder
+- Device Camera
+	- Record Videos
+	- Take Photos
+- SQLite 
+- PreferenceManager
+- PathProvider
+- Test
+	- Unit Test
+	- Widget Test
+	- Code Coverage
+- Patterns
+	- Singleton
+	- Repository
+	- Factory
+	- BLoC
+- Maps Plugin
+	- Setup Maps
+- Gps Positioning
+- Create Flutter Modules
+- Create Flutter Package
+- Mixins
+- High Order Functions
+- Functional programming
+	- Solid Knowledge 
+- Solid Knowledge with version control systems
+	- GIT
+	- SVN
+- Painting and Effects Widgets
+	- Basic Knowledge
+	- Basic to Medium drawings and effects
+
+# Senior
+- Push notifications
+- WebViews
+- Fingerprint and Face unlock 
+- Device Sensors full management
+	- Via plugins or platform channels
+- Animations and Motion Widgets
+	- Deep Knowledge
+	- Medium to complex Animations
+- Widgets personalization
+	- Customize built-in Flutter Widgets
+- Painting and Effects Widgets
+	- Deep Knowledge
+	- Medium to complex drawings and effects
+- Reactive Programming
+	- RxDart
+	- Streams
+- Platform Channels 
+	- Solid Knowledge 
+	- Native implementations on Android with Java or Kotlin
+	- Native implementations on iOs with Objective-C or Swift
+- Custom Plugins
+	- Create and upload to Dart Packages Repository
+	- Fork, modify existing plugins and reference into pubspec
+- Flutter Flavors
+	- Set up for Android
+	- Set up for iOS schemas
+- Deep Links
+- Test
+	- Integration Test
+- Accessibility 
+	- Tooltips
+	- Semantic
+- Continuous integration CI/CD
+	- Basic concepts
+- Animations though external tools
+	- Basic Knowledge of Flare
+- Beta Testing
+	- TestFlight
+	- Google Play Beta 
+- Firebase
+	- Set Up and integration
+	- Analytics 
+	- Push Notifications
+- Best Performance practices
+	- saveLayer() method considerations
+	- AnimatedBuilder considerations
+	- Opacity considerations
+	- Clippings considerations
