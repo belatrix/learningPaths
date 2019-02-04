@@ -2,9 +2,7 @@
 - Stateless Widget
 - Stateful Widget
 	- LifeCycle
-- Basic Widgets
-	- Basic Knowledge 
-	- ListView
+- Basic Widgets Knowledge	
 	- Stacks
 	- Columns
 	- Rows
@@ -13,13 +11,14 @@
 	- Text
 	- Icon
 	- Buttons
-- Multi-child Layout
+- Multi-Child Layout Widgets
 	- Row
 	- Column
 	- Stack
 	- GridView
 - Navigator
-	- Push and Pop RoutesPages
+	- Push and Pop Pages through Routes
+        - MaterialPageRoute
 - Hot Reload
 - Patterns
 	- MVC
@@ -33,11 +32,11 @@
 - Dart Collections
 	- List
 	- Maps
-- Concept of dynamic type
+- Concept of dynamic data type
 - Abstract classes and inheritance
 - Functions
 	- Positioned parameters
-	- Optionals parameter
+	- Optionals parameters
 - Version Control
 	- Basic Knowledge
 - Enums
@@ -50,11 +49,11 @@
 - Date And Time Widgets
 	- Time Handling
 - App LyfeCycle 
-- Flutter Single threaded
+- Flutter Single Threaded
 	- Basic Concepts
 - Localizations
 - Material Design
-	- Basic Concept
+	- Basic Concepts
 - ListView
 	- Horizontal and vertical orientations
 	- Divider
@@ -91,7 +90,7 @@
 	- IntrinsicHeight 
 	- IntrinsicWidth
 	- SizedBox
-- Multi-child Layout
+- Multi-Child Layout Widgets
 	- Dynamic data Listview
 	- Dynamic data GridView
 	- Dynamic data Table
@@ -127,16 +126,16 @@
 	- Basic Knowledge 
 
 # Engineer 3
-- Multi-child Layout
+- Multi-Child Layout Widgets
 	- Layout Builder
 	- CustomMultiChildLayout
 	- ListBody
 - Touch Interactions
 	- Draggable
-	- LongPressDragable
+	- LongPressDraggable
 	- DragTarget
 	- Dismissible
-	- Ignore Pointer
+	- IgnorePointer
 	- AbsorbPointer
 - SliverAppBar
 - NestedScrollView
@@ -147,16 +146,18 @@
 - JSON
 	- Automated Serialization
 - Play Store app publication
-	- Signed APK generation
+	- Signed .apk generation
 - App Store app publication
 	- Signed .ipa generation
 - Pagination 
-	- Lazy load in Lists
-	- Lazy load in Grids
+	- Lazy loading in Lists
+	- Lazy loading in Grids
 - Http Package
 	- Solid Concepts
 - Futures
-- Async
+        - Solid Concepts
+- Streams
+- Async Widgets
 	- StreamBuilder
 	- FutureBuilder
 - Device Camera
@@ -175,7 +176,7 @@
 	- Factory
 	- BLoC
 - Maps Plugin
-	- Setup Maps
+	- Set up Maps
 - Gps Positioning
 - Create Flutter Modules
 - Create Flutter Package
@@ -205,8 +206,7 @@
 	- Deep Knowledge
 	- Medium to complex drawings and effects
 - Reactive Programming
-	- RxDart
-	- Streams
+	- RxDart	
 - Platform Channels 
 	- Solid Knowledge 
 	- Native implementations on Android with Java or Kotlin
@@ -231,7 +231,7 @@
 	- TestFlight
 	- Google Play Beta 
 - Firebase
-	- Set Up and integration
+	- Set up and integration
 	- Analytics 
 	- Push Notifications
 - Best Performance practices
