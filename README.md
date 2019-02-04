@@ -7,7 +7,7 @@ Inside each folder you'll find the guide of each technology, with all the items 
 ## Create a pull request
 
 1. Log into GitHub
-2. Go to the Learning Paths repository: https://github.com/belatrix/learningPaths
+2. Go to the Learning Paths repository: [https://github.com/belatrix/learningPaths](https://github.com/belatrix/learningPaths)
 3. Fork the repository in your GitHub account by clicking the "Fork" button
 4. This will open a popup to select where we want to fork it. Select the user's personal account
 5. This process will create a fork of the repository in the user's account.
