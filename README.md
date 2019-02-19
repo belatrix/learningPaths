@@ -1,6 +1,12 @@
-# Learning paths guides
+# Learning paths
 
-Inside each folder you'll find the guide of each technology, with all the items group by seniority.
+Welcome to the Learning Paths repository. Here you'll find all the alternatives to improve your current career by knowing the gaps in your technical background and the topics that will fullfil them.
+
+You can also know the proper path if you want to start a different career or technology because the guides are group by seniority, starting from very low levels.
+
+## Repostory structure
+
+In the root screen, you'll find the main technologies and subjects. Inside each one of them the README.md file will detail all the topics group by seniority and, optionally at the top, new folders with other subjects that are part of the main one.
 
 # Content creation process
 
@@ -46,9 +52,12 @@ These people helped us a lot in the initial drafts of the guides. Thanks a lot!
 
 ## Backend
 
+- Sergio Bernal sbernal@belatrixsf.com
 - Gabriel Guzmán gguzman@belatrixsf.com
 - Evangelina Selman eselman@belatrixsf.com
+- Miguel Angel Toscán mtoscan@belatrixsf.com
 - Ever Valdés
+- Ramiro Vargas rvargas@belatrixsf.com
 
 ### Mentors
 
@@ -100,17 +109,21 @@ These people helped us a lot in the initial drafts of the guides. Thanks a lot!
 
 - Carlos Albornoz calbornoz@belatrixsf.com
 - Romina Babugia rbabugia@belatrixsf.com
+- Ramiro Gioia rgioia@belatrixsf.com
 - Nahuel Melo nmelo@belatrixsf.com
+- Ezequiel Porco eporco@belatrixsf.com
 - Juan Manuel Rodríguez
 - Mariano Sosa msosa@belatrixsf.com
 
 ### Mentors
 
 - Diego Villa dvilla@belatrixsf.com
+- Miguel D'amore mdamore@belatrixsf.com
 
 ## UX
 
 - Nahuel Melo nmelo@belatrixsf.com
+- Enrique Stanziola estanziola@belatrixsf.com
 
 ### Mentors
 
