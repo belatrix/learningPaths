@@ -36,23 +36,39 @@ These people helped us a lot in the initial drafts of the guides. Thanks a lot!
 
 ## General Research
 
-- Hansy Schmitt 
+- Hansy Schmitt
 
-## Android
+## Mobile
+
+### Android
 
 - Lucas Farías
 - Juan Manuel Rodríguez
 - Evangelina Selman eselman@belatrixsf.com
 
-### Mentors
+#### Mentors
 
 - Guillermo Gutiérrez ggutierrez@belatrixsf.com
 - Eduardo Medina edmedina@belatrixsf.com
 - Carlos Piñan cpinan@belatrixsf.com
 
-## Backend
+### Flutter
 
 - Sergio Bernal sbernal@belatrixsf.com
+
+### iOS
+
+- Germán González mgonzalez@belatrixsf.com
+- Gastón Grippi ggrippi@belatrixsf.com
+
+#### Mentors
+
+- Mariano Cornejo mcornejo@belatrixsf.com
+- Arturo Gamarra agamarra@belatrixsf.com
+- Luis Alonso Paulino Flores lpaulino@belatrixsf.com
+
+## Backend
+
 - Gabriel Guzmán gguzman@belatrixsf.com
 - Evangelina Selman eselman@belatrixsf.com
 - Miguel Angel Toscán mtoscan@belatrixsf.com
@@ -73,17 +89,6 @@ These people helped us a lot in the initial drafts of the guides. Thanks a lot!
 
 - Tomás Merlo tmerlo@belatrixsf.com
 - Mariana Tapia mtapia@belatrixsf.com
-
-## iOS
-
-- Germán González mgonzalez@belatrixsf.com
-- Gastón Grippi ggrippi@belatrixsf.com
-
-### Mentors
-
-- Mariano Cornejo mcornejo@belatrixsf.com
-- Arturo Gamarra agamarra@belatrixsf.com
-- Luis Alonso Paulino Flores lpaulino@belatrixsf.com
 
 ## Java
 
