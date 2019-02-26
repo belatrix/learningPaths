@@ -1,3 +1,4 @@
+
 # Engineer 1
 
  - iOS components
@@ -68,6 +69,10 @@
 	- Customization (info.plist)  
 	- Appstore rules
 - Basic animations
+	- Gesture Recognizers
+	- Frames
+	- Position
+	- Appearance
 - Integration with REST services
 	- JSON Parsing 
 	- Hooking Up a REST API to a Table View 
@@ -179,6 +184,12 @@
 	 - Use Objective c code in swift classes
 	 - Bridging header configuration
  - KVC - KVO
+	 - When to use it
+	 - Adopting Key-Value Coding
+	 - Accessing properties with KVC
+	 - Key and keypath
+	 - Dynamic dispatch
+	 - Automatic and Manual Notifications
  - Xcode Instruments
 	 - Memory leaks
 	 - Code performance issues
@@ -192,11 +203,21 @@
 	 - Elements, containers  
 	 - Navigation, notifications  
 	 - Capabilities
- - Basic knowledge of Core Location 
+ - Basic knowledge of Core Location
+	 - What is Core Location
+	 - CLLocationManager and delegate
 
 # Senior
 
  - Advanced animations
+	 - Velocity and deceleration
+	 - Motion effects
+	 - Animation options
+	 - Repeating
+	 - Animation Easing
+	 - Layer animations
+	 - 3D animations
+	 - UIViewPropertyAnimator
  - VIPER
 	 - What is it
 	 - Pros/cons
@@ -208,6 +229,8 @@
 		 - Router
 	 - When to use it
  - Intermediate knowledge of Core data
+	 - Fetch Requests
+	 - Core Data Stack
  - Local Authentication Framework
 	 - Create and Configure a Context  
 	 - Test Policy Availability  
@@ -280,3 +303,21 @@
  - Advanced knowledge of Reactive programmation 
  - Advanced knowledge of Core data
  - Advanced knowledge of Core location
+
+# TODO
+
+ - Review and add swift topics
+ - Add details to Senior and SME topics
+	 - Senior
+		 - Accelerometer and gyroscope
+		 - TCP/IP connections
+		 - Core Graphics
+		 - Testflight
+		 - Basic knowledge of Core ML Models
+		 - Applewatch
+		 - Reactive Programmation
+	 - SME
+		 - Advanced knowledge of Core ML Models 
+		 - Advanced knowledge of Reactive programmation
+		 - Advanced knowledge of Core data
+		 - Advanced knowledge of Core location
