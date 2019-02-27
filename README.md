@@ -28,7 +28,9 @@ In the root screen, you'll find the main technologies and subjects. Inside each 
 ## Synchronize the repositories
 
  1. If you have already forked the repository in the past, you'll need to syncronize it before adding new changes.
- 2. Follow this guide: https://help.github.com/articles/syncing-a-fork/
+ 2. Follow these guides: 
+    - https://help.github.com/en/articles/configuring-a-remote-for-a-fork
+    - https://help.github.com/articles/syncing-a-fork/
 
 # Collaborators
 
