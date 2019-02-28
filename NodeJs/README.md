@@ -90,11 +90,11 @@
 - Networking
 - Scaling
   - External factors
-		- Traffic increase
-		- Increased processing power required
-	- Internal factors
-		- High availability
-		- Fault tolerance
+    - Traffic increase
+    - Increased processing power required
+  - Internal factors
+    - High availability
+    - Fault tolerance
 - Architectural Patterns
   - Layered Architecture
   - MVC
@@ -104,4 +104,3 @@
 	-Prototype chain
 	- Map, filter, reduce, Map vs. Object
 	- Async operations: callback, promise, generator, event emitter, observable)
--
