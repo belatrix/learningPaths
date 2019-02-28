@@ -14,6 +14,8 @@
   - package.json & package-lock.json
   - police -l
   - npm publish
+- Reading and Writing Files
+	- Buffers
 - Express
   - Routing
 - ESlint
@@ -21,6 +23,7 @@
   - Syntax, data types, control sentences, functions
 
 # Engineer 2
+- Reading from and Writing to Streams
 - The Process Object
 - Buffers and File System
 - Global Object
@@ -36,9 +39,9 @@
 	- Arrays
 	- ES6 Functions
 	- ES6 Built-ins
-- Object-Oriented JavaScript (I don't agree with thise since this is part of Design Patterns)
+- Object-Oriented JavaScript (I don't agree with this since it's part of the Design Patterns)
 	- Classes and Objects
-Test
+- Test
   - Assert
   - Mocha & Chai
 
@@ -49,16 +52,16 @@ Test
 - Diagnostics
   - Basic debugging 
   - Basic Performance
-- Javascript
+- Javascript (I don't agree with this since it's not part of the platform but the language)
 	- Closures, Prototype
 	- Functional programming
 	- Arrow functions, destructuring, Rest/Spread, template strings
-- Object-Oriented JavaScript
+- Object-Oriented JavaScript (I don't agree with this since it's part of the Design Patterns)
 	- Object-Oriented Design Patterns
 - Express
   - RESTful API
   - HATEOAS
-Test
+- Test
   - Mock
   - Spying tests
 
@@ -71,7 +74,7 @@ Test
 - setInmediate & process.nextTick
 - Networking
 - Scaling
-- Javascript
+- Javascript (I don't agree with this since it's not part of the platform but the language)
 	- ECMA 6 specs
 	-Prototype chain
 	- Map, filter, reduce, Map vs. Object
