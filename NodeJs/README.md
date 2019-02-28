@@ -8,6 +8,7 @@
 - Nonblocking I/O
 - Callbacks
 - Handling errors
+- Logging requests
 - NPM
   - npm cli
   - npx and npm run scripts
@@ -16,14 +17,16 @@
   - npm publish
 - Reading and Writing Files
 	- Buffers
-- Express
-  - Routing
+- Connect Framework
 - ESlint
 - Javascript (I don't agree with this since it's not part of the platform but the language)
   - Syntax, data types, control sentences, functions
 
 # Engineer 2
+- Storing Session Data
+  - Redis
 - Reading from and Writing to Streams
+- Forever
 - The Process Object
 - Buffers and File System
 - Global Object
@@ -32,8 +35,11 @@
 - Clusters
 - Promises
 - Express
+  - Routing
   - Middlewares
   - Params & Querystring
+  - Template Engines
+- Passport Authentication
 - Javascript (I don't agree with this since it's not part of the platform but the language)
 	- Variable definition, scope, hoisting, private methods
 	- Arrays
@@ -44,11 +50,15 @@
 - Test
   - Assert
   - Mocha & Chai
+  - Should & Supertest
 
 # Engineer 3
-- async/await
+- async/await (I don't agree with this since it's not part of the platform but the language)
 - Socket.IO
 - TCP Sockets
+- MongoDB
+  - Mongoose
+- CRUD operations
 - Diagnostics
   - Basic debugging 
   - Basic Performance
@@ -64,20 +74,34 @@
 - Test
   - Mock
   - Spying tests
+  - Stubs
+  - Fake timers
+  - Karma
+- SemVer and Dependencies
 
 # Senior
 - Cryptography
 - Node Architecture: V8 & libuv
 - Wrapping and caching modules
+- Third party Authentication providers
 - Performance
 - Handling slow operations
-- setInmediate & process.nextTick
+- setInmediate & process.nextTick (This should not be better put in the Event Loop section?)
 - Networking
 - Scaling
+  - External factors
+		- Traffic increase
+		- Increased processing power required
+	- Internal factors
+		- High availability
+		- Fault tolerance
+- Architectural Patterns
+  - Layered Architecture
+  - MVC
+- Monitoring
 - Javascript (I don't agree with this since it's not part of the platform but the language)
 	- ECMA 6 specs
 	-Prototype chain
 	- Map, filter, reduce, Map vs. Object
 	- Async operations: callback, promise, generator, event emitter, observable)
-
-
+-
