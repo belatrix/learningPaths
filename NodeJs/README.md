@@ -19,7 +19,7 @@
 	- Buffers
 - Connect Framework
 - ESlint
-- Javascript (I don't agree with this since it's not part of the platform but the language)
+- Javascript
   - Syntax, data types, control sentences, functions
 
 # Engineer 2
@@ -40,13 +40,13 @@
   - Params & Querystring
   - Template Engines
 - Passport Authentication
-- Javascript (I don't agree with this since it's not part of the platform but the language)
-	- Variable definition, scope, hoisting, private methods
-	- Arrays
-	- ES6 Functions
-	- ES6 Built-ins
-- Object-Oriented JavaScript (I don't agree with this since it's part of the Design Patterns)
-	- Classes and Objects
+- Javascript
+  - Variable definition, scope, hoisting, private methods
+  - Arrays
+  - ES6 Functions
+  - ES6 Built-ins
+- Object-Oriented JavaScript
+  - Classes and Objects
 - Test
   - Assert
   - Mocha & Chai
@@ -62,12 +62,12 @@
 - Diagnostics
   - Basic debugging 
   - Basic Performance
-- Javascript (I don't agree with this since it's not part of the platform but the language)
-	- Closures, Prototype
-	- Functional programming
-	- Arrow functions, destructuring, Rest/Spread, template strings
-- Object-Oriented JavaScript (I don't agree with this since it's part of the Design Patterns)
-	- Object-Oriented Design Patterns
+- Javascript
+  - Closures, Prototype
+  - Functional programming
+  - Arrow functions, destructuring, Rest/Spread, template strings
+- Object-Oriented JavaScript
+  - Object-Oriented Design Patterns
 - Express
   - RESTful API
   - HATEOAS
@@ -99,8 +99,8 @@
   - Layered Architecture
   - MVC
 - Monitoring
-- Javascript (I don't agree with this since it's not part of the platform but the language)
-	- ECMA 6 specs
-	-Prototype chain
-	- Map, filter, reduce, Map vs. Object
-	- Async operations: callback, promise, generator, event emitter, observable)
+- Javascript
+  - ECMA 6 specs
+  - Prototype chain
+  - Map, filter, reduce, Map vs. Object
+  - Async operations: callback, promise, generator, event emitter, observable)
