@@ -1,21 +1,32 @@
 # Engineer 1
+- Installing Node with NVM
 - Node CLI
 - Node Web Server
 - Modules
 - Synchronous vs Asynchronous
+- Asynchronous programming vs Multi-threaded programming
+- Nonblocking I/O
 - Callbacks
 - Handling errors
+- Logging requests
 - NPM
-  - Commands
-  - package.json & package-lock.json
+  - npm cli
   - npx and npm run scripts
-- Express
-  - Routing
+  - package.json & package-lock.json
+  - police -l
+  - npm publish
+- Reading and Writing Files
+	- Buffers
+- Connect Framework
+- ESlint
 - Javascript
-	- Syntax, data types, control sentences, functions
-	- ESlint
+  - Syntax, data types, control sentences, functions
 
 # Engineer 2
+- Storing Session Data
+  - Redis
+- Reading from and Writing to Streams
+- Forever
 - The Process Object
 - Buffers and File System
 - Global Object
@@ -24,52 +35,72 @@
 - Clusters
 - Promises
 - Express
+  - Routing
   - Middlewares
   - Params & Querystring
+  - Template Engines
+- Passport Authentication
 - Javascript
-	- Variable definition, scope, hoisting, private methods
-	- Arrays
-	- ES6 Functions
-	- ES6 Built-ins
+  - Variable definition, scope, hoisting, private methods
+  - Arrays
+  - ES6 Functions
+  - ES6 Built-ins
 - Object-Oriented JavaScript
-	- Classes and Objects
-Test
+  - Classes and Objects
+- Test
   - Assert
   - Mocha & Chai
+  - Should & Supertest
 
 # Engineer 3
-- async/await
+- async/await (I don't agree with this since it's not part of the platform but the language)
 - Socket.IO
 - TCP Sockets
+- MongoDB
+  - Mongoose
+- CRUD operations
 - Diagnostics
   - Basic debugging 
   - Basic Performance
 - Javascript
-	- Closures, Prototype
-	- Functional programming
-	- Arrow functions, destructuring, Rest/Spread, template strings
+  - Closures, Prototype
+  - Functional programming
+  - Arrow functions, destructuring, Rest/Spread, template strings
 - Object-Oriented JavaScript
-	- Object-Oriented Design Patterns
+  - Object-Oriented Design Patterns
 - Express
   - RESTful API
   - HATEOAS
-Test
+- Test
   - Mock
   - Spying tests
+  - Stubs
+  - Fake timers
+  - Karma
+- SemVer and Dependencies
 
 # Senior
 - Cryptography
 - Node Architecture: V8 & libuv
 - Wrapping and caching modules
+- Third party Authentication providers
 - Performance
 - Handling slow operations
-- setInmediate & process.nextTick
+- setInmediate & process.nextTick (This should not be better put in the Event Loop section?)
 - Networking
 - Scaling
+  - External factors
+    - Traffic increase
+    - Increased processing power required
+  - Internal factors
+    - High availability
+    - Fault tolerance
+- Architectural Patterns
+  - Layered Architecture
+  - MVC
+- Monitoring
 - Javascript
-	- ECMA 6 specs
-	-Prototype chain
-	- Map, filter, reduce, Map vs. Object
-	- Async operations: callback, promise, generator, event emitter, observable)
-
-
+  - ECMA 6 specs
+  - Prototype chain
+  - Map, filter, reduce, Map vs. Object
+  - Async operations: callback, promise, generator, event emitter, observable)
