@@ -53,7 +53,7 @@
   - Should & Supertest
 
 # Engineer 3
-- async/await (I don't agree with this since it's not part of the platform but the language)
+- async/await
 - Socket.IO
 - TCP Sockets
 - MongoDB
