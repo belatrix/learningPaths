@@ -98,6 +98,12 @@
 - Architectural Patterns
   - Layered Architecture
   - MVC
+  - Client-Server
+  - Master-Slave
+  - Event-Bus or Event-Driven Architectures
+  - Microservices Architecture 
+    - The Broker pattern
+  - Lambda Architectures
 - Monitoring
 - Javascript
   - ECMA 6 specs
