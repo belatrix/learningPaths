@@ -1,4 +1,5 @@
 # Engineer 1
+
 - Installing Node with NVM
 - Node CLI
 - Node Web Server
@@ -16,13 +17,14 @@
   - police -l
   - npm publish
 - Reading and Writing Files
-	- Buffers
+  - Buffers
 - Connect Framework
 - ESlint
 - Javascript
   - Syntax, data types, control sentences, functions
 
 # Engineer 2
+
 - Storing Session Data
   - Redis
 - Reading from and Writing to Streams
@@ -53,6 +55,7 @@
   - Should & Supertest
 
 # Engineer 3
+
 - async/await
 - Socket.IO
 - TCP Sockets
@@ -60,7 +63,7 @@
   - Mongoose
 - CRUD operations
 - Diagnostics
-  - Basic debugging 
+  - Basic debugging
   - Basic Performance
 - Javascript
   - Closures, Prototype
@@ -80,6 +83,7 @@
 - SemVer and Dependencies
 
 # Senior
+
 - Cryptography
 - Node Architecture: V8 & libuv
 - Wrapping and caching modules
@@ -101,7 +105,7 @@
   - Client-Server
   - Master-Slave
   - Event-Bus or Event-Driven Architectures
-  - Microservices Architecture 
+  - Microservices Architecture
     - The Broker pattern
   - Lambda Architectures
 - Monitoring
