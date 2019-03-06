@@ -1,0 +1,143 @@
+﻿# Engineer 1
+- Design patterns
+	- Basic Concepts
+- Message queues and tools
+	- Basic Concepts
+- REST
+	- Protocols
+	- HTTP methods
+	- Difference PUT and POST -Difference SOAP and REST	
+	- Data format Json ,XML
+- SOAP
+	- Basic Concepts
+- SQL
+	- DBMS
+	- RDBMS
+	- Tables and fields
+	- Primary key ,Unique key, foreign key,
+	- Join, Right, Left, Full and Inner join
+	- Normalization vs de-normalization, Normal Forms: 1st, 2nd, 3rd and 4th 
+	- Relationships and Types ALIAS
+
+# Engineer 2
+- Design patterns
+	- Creational Patterns
+		- Factory
+		- Abstract Factory
+		- Builder
+		- Singleton
+	- Structural patterns
+		- Composite
+		- Decorator
+		- Facade
+	- Behavioral patterns
+		- Chain of responsibility
+		- Iterator
+		- Servant (helpers)
+- Message queues and tools
+	- Synchronous vs. asynchronous
+	- Protocols 
+	-  APIs (JMS, ActiveMQ Artemis, etc) 
+	-  Clusters
+- REST
+	-  CRUD design principles
+	-  Swagger
+	-  Patch method
+	- Idempotence
+	-  Http Status codes
+	-  Associations
+	- Query parameters (optional parameters) 
+	- Web Services
+- SOAP
+	- Web services
+	-  Protocol binding
+	-  Modules Data encapsulation 
+	-  Building blocks WSDL definition 
+	-  Components SOAP Definition
+	- Benefits of SOAP
+- SQL
+	- Auto Increment Constraints Cluster and Non-Cluster
+	-  Index 
+	-  Self-Join
+	-  Datawarehouse
+	- Cross-Join
+	- Functions and types 
+	- OLTP
+	- CLAUSEs Union, Minus 
+	- Interact Truncate and Drop Motors
+	
+# Engineer 3
+- Design patterns
+	- Creational Patterns
+		- Object pool
+		- Lazy initialization
+		- Prototype
+	- Structural patterns
+		- Adapter
+		- Bridge
+		- Flyweight
+		- Proxy
+	- Behavioral patterns
+		- Command
+		- Observer
+		- Template
+- Message queues and tools
+	- Advanced Message Queuing Protocol (AMQP)
+	- Message Brokers
+- REST
+	- Design Procedures
+	- Filtering (by field, sorting, fields to display, pagination)
+	-  HTTP responses (status code, entity-body, response headers)
+- SOAP
+	- Correlation (orchestration , reliable messages)
+	-  Policies (WS- Policy framework )
+	-  Notification and eventing (Publish and suscribe ,WS -notifications) XML / WSDL 
+	-  Message Exchange Patterns (MEP)
+- SQL 
+	- Triggers 
+	- Sub-query 
+	- Cursors
+	- Collation 
+	- Transactions and properties 
+	- Composite primary Key 
+	- Creating Objects 
+	- Persisting Objects 
+	- Update Objects
+# Senior
+- Design patterns
+	- Creational Patterns
+		- Mediator
+		- Memento
+		- State
+		- Strategy
+		- Visitor
+- Concurrency patterns
+	-  Active objects
+	-  Balking
+	-  Binding properties
+	-  Double-checked locking
+	-  Event-based asynchronous
+	-  Join
+	-  Lock
+	-  Messaging design pattern
+	-  Monitor object
+	-  Reactor
+	-  Scheduler
+	-  Thread pool
+- Message queues and tools
+	- Message Queuing Services architecture 
+	- Cloud base message queues patterns
+- REST
+	- Jersey
+	-  Validation types
+		-  layers
+		-  Architecture design
+		-  Solution design
+- SOAP
+	- SOA Architecture (Logical components)
+	- Principles  (reusable loosely coupled, autonomus ..etc) 
+	- Service Oriented Design WS-BPEL
+- SQL
+	- Cartesian product 
+	- Database black box testing 
+	- ORM
