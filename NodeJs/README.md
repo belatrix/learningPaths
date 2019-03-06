@@ -1,8 +1,12 @@
 # Engineer 1
+
 - Installing Node with NVM
 - Node CLI
 - Node Web Server
 - Modules
+  - Using require
+  - Using `module.exports` and `exports`
+  - Relative vs absolute vs node_modules vs core
 - Synchronous vs Asynchronous
 - Asynchronous programming vs Multi-threaded programming
 - Nonblocking I/O
@@ -13,31 +17,33 @@
   - npm cli
   - npx and npm run scripts
   - package.json & package-lock.json
-  - police -l
-  - npm publish
 - Reading and Writing Files
-	- Buffers
-- Connect Framework
+  - Buffers
+- Connect Framework (or some other http server framework that uses the same middleware approach)
 - ESlint
 - Javascript
-  - Syntax, data types, control sentences, functions
+  - Syntax, data types, control structures, functions
 
 # Engineer 2
+
 - Storing Session Data
-  - Redis
-- Reading from and Writing to Streams
-- Forever
+  - Redis/Memcached
+- Reading from, Writing to, and piping Streams
+- Forever (or pm2)
 - The Process Object
 - Buffers and File System
 - Global Object
 - Event Emitter
 - Call Stack & Event Loop
+  - setInmediate & process.nextTick
 - Clusters
 - Promises
+  - then, catch, finally
+  - error propagation
 - Express
   - Routing
   - Middlewares
-  - Params & Querystring
+  - Params & Querystring & body-parser
   - Template Engines
 - Passport Authentication
 - Javascript
@@ -51,16 +57,18 @@
   - Assert
   - Mocha & Chai
   - Should & Supertest
+- npm publish
 
 # Engineer 3
+
 - async/await
 - Socket.IO
 - TCP Sockets
-- MongoDB
+- MongoDB (nice to have)
   - Mongoose
 - CRUD operations
 - Diagnostics
-  - Basic debugging 
+  - Basic debugging
   - Basic Performance
 - Javascript
   - Closures, Prototype
@@ -78,15 +86,16 @@
   - Fake timers
   - Karma
 - SemVer and Dependencies
+- npm audit
 
 # Senior
+
 - Cryptography
 - Node Architecture: V8 & libuv
 - Wrapping and caching modules
 - Third party Authentication providers
 - Performance
 - Handling slow operations
-- setInmediate & process.nextTick (This should not be better put in the Event Loop section?)
 - Networking
 - Scaling
   - External factors
@@ -101,7 +110,7 @@
   - Client-Server
   - Master-Slave
   - Event-Bus or Event-Driven Architectures
-  - Microservices Architecture 
+  - Microservices Architecture
     - The Broker pattern
   - Lambda Architectures
 - Monitoring
@@ -110,3 +119,9 @@
   - Prototype chain
   - Map, filter, reduce, Map vs. Object
   - Async operations: callback, promise, generator, event emitter, observable)
+- Logging
+  - `util.debuglog` or `debug` module
+  - `winston` or equivalent logging tool
+  - Logging in distributed applications
+- Private npm registry
+- Worker threads/child processes
