@@ -18,7 +18,27 @@
 	- Join, Right, Left, Full and Inner join
 	- Normalization vs de-normalization, Normal Forms: 1st, 2nd, 3rd and 4th 
 	- Relationships and Types ALIAS
-
+- HTTP
+	- Components
+		- Client 
+		- User agent
+		- Web server
+		- Proxy
+	- Stateless vs Sessionless, Connections (TCP basics)
+	-	Basic concepts 
+		-	Cache
+		-	Authentication
+		-	Origin constraints
+		-	Authentication
+		-	Proxy 
+		-	Tunnelling
+		-	Sessions
+	- HTTP Flow
+	-	Messages
+		-	Structure
+		-	Request (headers and body) 
+		-	Responses (status, headers and body)
+		-	Frames
 # Engineer 2
 - Design patterns
 	- Creational Patterns
@@ -65,6 +85,60 @@
 	- OLTP
 	- CLAUSEs Union, Minus 
 	- Interact Truncate and Drop Motors
+- HTTP
+	- Headers
+		- Authentication
+			- Authentication framework
+			- Proxy authentication 
+			- Forbidden access
+			- Cross origin
+			- Authentication schemes
+		- Caching
+			- Kinds of caches
+			- Caching operations
+			- Cache control 
+			- Freshness
+			- Cache validation
+			- Varying responses
+		- Connection management
+		- Content negotiation
+			- Server-driven content negotiation
+			- Accept headers
+			- Client-driven conten negotiation
+		- Cookies
+			- Create cookies
+			- Security
+			- Tracking and privacy
+		- Message body information
+			- Content length
+			- Type
+			- Encoding
+			- Language 
+			- Location
+		- Request context
+			- From
+			- Host
+			- Referrer
+			- User-agent
+		- Response context
+			- Allow
+			- Server
+	-	Methods
+		-	GET, POST, DELETE ,UPDATE ,HEAD
+	-	Response codes
+		-	Information responses 
+		-	Succesful responses
+		-	Redirection messages
+		-	Client error responses
+		-	Server error responses
+		-	Browser compatibility
+	-	Sessions
+		-	Request and responses to handle sessions.
+	- Connections
+		- Short-lived connections
+		- Persistent connections
+		- Pipelining
+		- Domain sharding
 	
 # Engineer 3
 - Design patterns
@@ -103,6 +177,42 @@
 	- Creating Objects 
 	- Persisting Objects 
 	- Update Objects
+- HTTP
+	- Headers
+		- Redirects
+			- Location header
+			- Permanent redirection
+			- Temporary redirection
+			- Special redirection
+			- Domain aliasing
+			- Keep links alive
+			- Temporary responses to unsafe requests and long requests
+		- Range requests
+			- Partial requests and partial request responses
+			- Single part ranges
+			- Multipart ranges
+			- Conditional range requests
+			- Transfer-encoding
+		- Compression
+			- File format compression
+			- End-to-end compression
+			- Hop-by-hop compression
+		- Web sockets
+		- Conditional requests
+			- Validators
+			- Conditional headers
+			- Uses
+				- Cache update
+				- Partial downloads
+				- Optimistic locking algorithm
+				- First upload of a resource
+	-	Security
+		-	Content security policy
+		-	HTTP public key pinning (HPKP)
+		-	HTTP Strict Transport Security (HSTS)
+		-	Security cookies
+	- Methods
+		- HEAD. PUT, CONNECT, OPTIONS, TRACE, PATCH
 # Senior
 - Design patterns
 	- Creational Patterns
@@ -141,3 +251,18 @@
 	- Cartesian product 
 	- Database black box testing 
 	- ORM
+- HTTP
+	- Protocol upgrade mechanism
+		- Handshake
+		- 101 status code
+		- Upgrade to http2 connection
+		- Upgrade to WebSocket connection
+		- TLS
+	- Headers
+		-  Content security policy
+			- Syntax
+			- Directives
+			- CSP in workers
+			- Multiple content security policies
+			- Browser compatibility
+	- Cross-Origin Resource Sharing (CORS)
