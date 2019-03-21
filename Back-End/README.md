@@ -39,6 +39,29 @@
 		-	Request (headers and body) 
 		-	Responses (status, headers and body)
 		-	Frames
+- SQL
+	- DBMS
+	- RDBMS
+	- Tables and fields
+	- Primary key, unique key, foreign key, Join, Right, Left, Full and Inner join
+	- Normalization vs de-normalization
+	- Normal Forms: 1st, 2nd, 3rd and 4th 
+	- Relationships and Types 
+	- ALIAS
+- NoSQL
+	- Basic Concepts
+- JMS
+	-  Basic Concepts
+- AOP 
+	- Basic Concepts
+- Web Sockets
+	- Basic Concepts
+- Microservices
+	- Basic Concept
+- Reactive Programming
+	- Basic Concepts
+- Functional Programming
+	- Basic Concepts
 # Engineer 2
 - Design patterns
 	- Creational Patterns
@@ -139,7 +162,70 @@
 		- Persistent connections
 		- Pipelining
 		- Domain sharding
-	
+- SQL
+	- Auto Increment 
+	- Constraints 
+	- Cluster and Non-Cluster Index 
+	- Self-Join 
+	- Datawarehouse 
+	- Cross-Join 
+	- Functions and types
+	- OLTP
+	- CLAUSEs
+	- Union
+	- Minus and Interact 
+	- Truncate and Drop
+	- Motors
+- NoSQL
+	- Create Documents
+	- Storing Data
+	- Queries	
+- JMS
+	- Factories 
+	- Connections 
+	- Exception handling 
+	- Architecture Domain Sessions
+		- Producers
+		- Consumers
+		- Messages
+		- Queue browsers
+		- Temporal browsers 
+	- Selectors 
+	-	Listeners
+- AOP
+	- AOP proxy
+	- Weaving, Annotetions 
+	- Declaring aspects
+	- Introduction and Mixin
+	- Joint point
+	- Invocation
+	- Pointcut
+	- Designators
+	- Target object 
+	- Types of advice
+		- Before advice
+		- After returning advice
+		- After throwing advice
+		- After (finally) advice
+		- Around advice
+- Web Sockets
+	- LifeCycle and development
+-  Microservices
+	- Containers
+	- Loggin and monitoring 
+	- Scalability
+	- Distributed Systems
+	- Resilience
+	- Orchestration for containers
+	- Backend to Frontend
+- Reactive Programming
+	- Cyclic dependencies
+	- Interaction with mutable state
+	- Dynamic updating of the graph of dependencies
+	- Change propagation algorithms (push ,pull ,hybrid push -pull)
+- Functional Programming
+	- Funciones de orden superior (map ,filter)
+	- Lambdas
 # Engineer 3
 - Design patterns
 	- Creational Patterns
@@ -213,6 +299,55 @@
 		-	Security cookies
 	- Methods
 		- HEAD. PUT, CONNECT, OPTIONS, TRACE, PATCH
+- SQL
+	- Triggers 
+	- Sub-query 
+	- Cursors 
+	- Collation 
+	- Transactions and properties 
+	- Composite primary Key 
+	- Creating Objects 
+	- Persisting Objects
+	- Update Objects
+- NoSQL
+	- Modeling Patterns 
+	- Dernomalizations
+- JMS
+	-	Local transaccions 
+	-	Specification options for messaging
+	-	Priorities
+	-	Delivery delays
+	-	Advantages of JMS
+	-	Components
+	-	Container-managed transactions
+	-	Bean-managed transactions
+	-	Headers
+	-	Message properties
+	-	Message body
+	-	Method Chaining
+- AOP
+	- AOP Intrumentation
+	- JBoss AOP Deployer
+	- Services
+	- Pre-package libraries
+	- Define advisors
+	- Annotations for advices
+	- Declare POJO objects
+- Web Sockets
+	- Client Side Development 
+	- Server Side Development 
+	- Decoder/Encoder
+- Microservices
+	- Message Orchestration 
+	- Multi node environments
+- Reactive Programming
+	- Degrees of explicitness
+	- Static or dynamic
+	- Higher-order reactive programming
+	- Data flow differentiation
+- Functional Programming
+	- Recursion
+	- Monads
 # Senior
 - Design patterns
 	- Creational Patterns
@@ -266,3 +401,40 @@
 			- Multiple content security policies
 			- Browser compatibility
 	- Cross-Origin Resource Sharing (CORS)
+- SQL 
+	- Cartesian product
+	- Database black box testing 
+	- ORM
+- NoSQL
+	- Application site join 
+	- Tree agregation
+	- Anti patterns
+	- Map/Reduce
+- JMS
+	-	Managing Transaction
+	-	Message-Driven Beans to Receive Messages
+	-	Distributed Transactions
+	-	Allowing messages to expire
+	-	Reliability Mechanisms
+- AOP
+	- Performance as aspect
+	- Combining a pointcut with an advisor
+	- Declaring a regular expression pointcut
+	- AspectJ pointcuts
+	- Injecting AspectJ
+	- Autoproxying
+- Web Sockets
+	- Batch Proccesing 
+	- Parallel Processing 
+	- Execute some groups of steps or parts of a step in parallel
+	- Define jobs
+- Microservices
+	- Cache patterns
+	- Concurrency patterns 
+	- Archetectural Styles
+- Reactive Programming
+	- Evaluation models of reactive programming
+	- Similarities with observer pattern
+- Functional Progamming
+	- Concurrency 
+	- Asynchronous (Futures )
