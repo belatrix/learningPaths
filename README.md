@@ -8,11 +8,16 @@ You can also know the proper path if you want to start a different career or tec
 
 In the root screen, you'll find the main technologies and subjects. Inside each one of them the README.md file will detail all the topics group by seniority and, optionally at the top, new folders with other subjects that are part of the main one.
 
+# Contact
+
+Gabriel Guzmán - gguzman@belatrixsf.com / Skype: gabo_mza
+Gisella Tromer - gtromer@belatrixsf.com / Skype: gisetr
+
 # Content creation process
 
 ## Create a pull request
 
-1. Log into GitHub
+1. Log into GitHub. You can use your personal account.
 2. Go to the Learning Paths repository: [https://github.com/belatrix/learningPaths](https://github.com/belatrix/learningPaths)
 3. Fork the repository in your GitHub account by clicking the "Fork" button
 4. This will open a popup to select where we want to fork it. Select the user's personal account
