@@ -21,7 +21,7 @@
 	- Classes and objects
 	- Messages and methods
 	- Encapsulation
-	- Heritage, Superclasses and Subclasses
+	- Inheritance, Superclasses and Subclasses
 	- Polymorphism
 	- Abstraction
 - Classes and objects
@@ -29,7 +29,7 @@
 	- Constructors and objects creation
 	- Variables and method access
 	- Class variables and methods
-	- Heritage
+	- Inheritance
 	- Method overloading
 	- Method overwriting
 	- Abstract Classes
@@ -56,7 +56,7 @@
 	- Try-catch-finally
 	- Stack cleaning
 	- Constructors, destructors and exceptions handling
-	- Exceptions and heritage
+	- Exceptions and inheritance
 	- Exceptions logging
 - I/O System: java.io	
 	- I/O basic concepts
@@ -68,7 +68,7 @@
 	- Multi-thread programming
 	- Threads in java
 	- Threads state diagram
-	- Thread class heritage and Threads manipulation
+	- Thread class inheritance and Threads manipulation
 	- run() and start() methods
 	- Producer-consumer
 	- Method synchronization
