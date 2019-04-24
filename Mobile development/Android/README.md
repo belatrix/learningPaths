@@ -1,7 +1,7 @@
 # Engineer 1
 
 - ViewGroups
-	- RelativeLayout, LinearLayout, ScrollView  
+	- RelativeLayout(deprecated), LinearLayout, ConstraintLayout, ScrollView  
 	- Basic properties
 - Views
 	- Types: ImageView, Button, TextView, EditText, TextInputEditText.  
@@ -73,7 +73,7 @@
 - Services
 	- Types (Services vs BoundServices)  
 	- Implementation (Extending Service class or IntentService class)  
-	- Differences between Service and IntentService.  
+	- Differences between Service, IntentService, JobIntentService.  
 	- How to start a service? How to stop a service?
 - Content providers
 	- Types: General vs Custom.  
@@ -139,7 +139,8 @@
 	- Architecture layers
 - Widgets
 	- Statics and dynamics
-
+- Crashlytics (or similar)
+	- Basic concepts
 # Engineer 3
 
 - CustomViews
@@ -231,7 +232,7 @@
 - Canvas
 	- Drawing using View and SurfaceView
 - Resources optimization
-	- Memory, Batery
+	- Memory, Battery
 - Jetpack
 	- Definition
 	- Components
@@ -248,3 +249,5 @@
 - Reactive programming
 	- Basic concepts  
 	- RxJava
+- Third Party Libraries
+	- Implementation
