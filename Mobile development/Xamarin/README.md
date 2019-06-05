@@ -1,0 +1,53 @@
+# Engineer 1
+
+- Layouts
+	- Types: StackLayout, RelativeLayout, Grid, ScrollView
+	- Basic Properties
+- Controls
+	- Types: Entry, Label, Button, Image, Switch, DatePicker, TimePicker, ActivityIndicator
+	- Basic Properties
+- Collections
+	- Types: ListView, CollectionView, Picker
+	- Basic Properties
+	- Performance
+- Pages
+	- ContentPage
+	- NavigationPage
+	- MasterDetailPage
+- XAML
+	- Syntax
+	- XAML extensions
+	- Binding Basics
+- Application Fundamentals
+	- App Class
+	- App Lifecycle
+	- Behaviors
+	- Custom Renderers
+	- Data Binding
+	- Dependency Service
+	- MVVM
+- Gestures
+	- Definition
+	- Tap
+	- Swipe
+- Messaging Center
+	- Definition
+	- Implementation
+	- Common uses
+- Web Services
+	- Definition
+	- Consuming REST services
+- Local Storage
+	- Overview
+	- SqlLite
+	- Storing & reading information
+- Xamarin Essentials
+	- App Information
+	- Device Information
+	- Geolocation
+	- Color Converter
+- Resource Dictionary
+	- Adding and using strings, styles, colors, etc.
+- Testing
+	- Performance
+	- Unit Testing
