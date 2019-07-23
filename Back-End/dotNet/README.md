@@ -69,7 +69,7 @@
 
 - C# / VB.NET
 	- Patterns (IoC, Singleton, etc.)  
-	- Threads, Stream, Synchronism Async/Await, Sockets, Caching, Parallelism .Net TPL
+	- Threads, Stream, Synchronism Async/Await, Sockets, Parallelism .Net TPL
 - Entity Framework Core
 	- Code first: conventions, data annotations, migrations, inheritance, mappings, model generation, PLINQ.
 	- Use appsetings.json to configure connection strings.
@@ -141,7 +141,7 @@
 		- DevOps  
 		- Management  
 		- Machine learning  
-		- IoT
+		- IoTgi
 - Continuous integration
 	- MSBUILD configuration and basic concepts.
 	- Teamcity, VSTS
