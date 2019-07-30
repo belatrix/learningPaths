@@ -3,18 +3,15 @@
 	- Create and run applications in Visual Studio.
 	- Debugging
 - VB.NET
-	- Syntax, data types, control sentences, Strings, arrays, exceptions.
-	- Classes, Inheritance, Encapsulation, Polymorphism. Interfaces.
-- C#
-	- Syntax, data types, control sentences, Strings, arrays, exceptions.
-			-Literals, Operators, Conditional Statements, Equality Operator, Equals 
-			, Null operators, Null-conditional, Nameof operator, String operations
-			, Arrays, Collections, Enums, Guid, Looping, Built in types, Anonymous types 
-			, Type conversion, Nullable types, Constructors, Access modifiers, Interfaces 
-			, Static classes, Inheritance, Properties, Methods, Object initializers, Polymorphism 
-			, LINQ queries, Exception handling, DateTime methods, DateTime formatting
-			, Naming conventions, I/O, files.
-	- C#5 and beyond.
+	- C# (C#5 and beyond)
+		- Syntax, data types, control sentences, Strings, arrays, exceptions.
+				-Literals, Operators, Conditional Statements, Equality Operator, Equals 
+				, Null operators, Null-conditional, Nameof operator, String operations
+				, Arrays, Collections, Enums, Guid, Looping, Built in types, Anonymous types 
+				, Type conversion, Nullable types, Constructors, Access modifiers, Interfaces 
+				, Static classes, Inheritance, Properties, Methods, Object initializers, Polymorphism 
+				, LINQ queries, Exception handling, DateTime methods, DateTime formatting
+				, Naming conventions, I/O, files.
 - .NET Framework Versions 2/3/4+
 - WinForms
 	- Console applications, Windows applications (Windows x86/x64)
@@ -31,19 +28,13 @@
 # Engineer 2
 
 - VisualStudio
-	- Debugging
 	- NuGet package manager
 - VB.NET
-	- Complex data structures.
-	- Memory management.
-	- Casting, generics, reflection.
-	- I/O, files.
-	- Networking, HTTP requests.
-- C#
-	- Value type vs. Reference type, IEnumerable, IQueryable, IDisposable, Delegates
-	, Extension methods, Recursion, File and Stream I/O, Networking, Performing HTTP requests
-	, LINQ queries, LINQ to objects, Generics, Using statement, Using directive, Reflection, Casting
-	, Iterators, Lambda expressions, StringBuilder, Stopwatches, Memory management.
+	- C#
+		- Value type vs. Reference type, IEnumerable, IQueryable, IDisposable, Delegates
+		, Extension methods, Recursion, File and Stream I/O, Networking, Performing HTTP requests
+		, LINQ queries, LINQ to objects, Generics, Using statement, Using directive, Reflection, Casting
+		, Iterators, Lambda expressions, StringBuilder, Stopwatches, Memory management, Complex data structures.
 - ASP.Net Web forms
 	- Legacy applications basic concepts.
 - ASP.Net MVC
