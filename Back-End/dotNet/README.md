@@ -2,8 +2,7 @@
 - VisualStudio
 	- Create and run applications in Visual Studio.
 	- Debugging
-- VB.NET
-	- C# (C#5 and beyond)
+- C# / VB.NET (C#5 and beyond)
 		- Syntax, data types, control sentences, Strings, arrays, exceptions.
 				-Literals, Operators, Conditional Statements, Equality Operator, Equals 
 				, Null operators, Null-conditional, Nameof operator, String operations
@@ -29,8 +28,7 @@
 
 - VisualStudio
 	- NuGet package manager
-- VB.NET
-	- C#
+- C# / VB.NET
 		- Value type vs. Reference type, IEnumerable, IQueryable, IDisposable, Delegates
 		, Extension methods, Recursion, File and Stream I/O, Networking, Performing HTTP requests
 		, LINQ queries, LINQ to objects, Generics, Using statement, Using directive, Reflection, Casting
